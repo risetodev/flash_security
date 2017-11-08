@@ -209,5 +209,10 @@ namespace loginSecur
                 }
             } catch (Exception i) { MessageBox.Show(i.ToString()); }            
         }
+
+        private void help_button_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "help.chm");
+        }
     }
 }

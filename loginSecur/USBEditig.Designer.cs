@@ -35,6 +35,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.authorizeButton = new System.Windows.Forms.Button();
             this.deleteButton = new System.Windows.Forms.Button();
+            this.help_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // comboBox1
@@ -96,6 +97,16 @@
             this.deleteButton.UseVisualStyleBackColor = true;
             this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
             // 
+            // help_button
+            // 
+            this.help_button.Location = new System.Drawing.Point(432, 2);
+            this.help_button.Name = "help_button";
+            this.help_button.Size = new System.Drawing.Size(56, 34);
+            this.help_button.TabIndex = 24;
+            this.help_button.Text = "Help";
+            this.help_button.UseVisualStyleBackColor = true;
+            this.help_button.Click += new System.EventHandler(this.help_button_Click);
+            // 
             // USBEditig
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
@@ -103,6 +114,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(490, 395);
+            this.Controls.Add(this.help_button);
             this.Controls.Add(this.deleteButton);
             this.Controls.Add(this.authorizeButton);
             this.Controls.Add(this.label2);
@@ -130,5 +142,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button authorizeButton;
         private System.Windows.Forms.Button deleteButton;
+        private System.Windows.Forms.Button help_button;
     }
 }

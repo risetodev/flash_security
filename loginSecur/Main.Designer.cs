@@ -43,6 +43,7 @@
             this.progressBarEncryption1 = new System.Windows.Forms.ProgressBar();
             this.labelCompressionStatus = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.help_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // emergencyExit
@@ -50,10 +51,10 @@
             this.emergencyExit.BackColor = System.Drawing.Color.Transparent;
             this.emergencyExit.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.emergencyExit.ForeColor = System.Drawing.Color.Red;
-            this.emergencyExit.Location = new System.Drawing.Point(731, 10);
+            this.emergencyExit.Location = new System.Drawing.Point(689, 12);
             this.emergencyExit.Margin = new System.Windows.Forms.Padding(5);
             this.emergencyExit.Name = "emergencyExit";
-            this.emergencyExit.Size = new System.Drawing.Size(261, 39);
+            this.emergencyExit.Size = new System.Drawing.Size(238, 41);
             this.emergencyExit.TabIndex = 0;
             this.emergencyExit.Text = "EMERGENCY SHUTDOWN";
             this.emergencyExit.UseVisualStyleBackColor = false;
@@ -73,7 +74,7 @@
             this.buttonBack.BackColor = System.Drawing.Color.Transparent;
             this.buttonBack.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonBack.BackgroundImage")));
             this.buttonBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonBack.Location = new System.Drawing.Point(12, 12);
+            this.buttonBack.Location = new System.Drawing.Point(13, 12);
             this.buttonBack.Name = "buttonBack";
             this.buttonBack.Size = new System.Drawing.Size(76, 39);
             this.buttonBack.TabIndex = 2;
@@ -85,7 +86,7 @@
             this.buttonForward.BackColor = System.Drawing.Color.Transparent;
             this.buttonForward.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonForward.BackgroundImage")));
             this.buttonForward.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonForward.Location = new System.Drawing.Point(94, 12);
+            this.buttonForward.Location = new System.Drawing.Point(95, 11);
             this.buttonForward.Name = "buttonForward";
             this.buttonForward.Size = new System.Drawing.Size(79, 39);
             this.buttonForward.TabIndex = 3;
@@ -141,7 +142,7 @@
             this.formatDiskButton.ForeColor = System.Drawing.Color.Red;
             this.formatDiskButton.Location = new System.Drawing.Point(369, 10);
             this.formatDiskButton.Name = "formatDiskButton";
-            this.formatDiskButton.Size = new System.Drawing.Size(220, 39);
+            this.formatDiskButton.Size = new System.Drawing.Size(220, 41);
             this.formatDiskButton.TabIndex = 8;
             this.formatDiskButton.Text = "FORMAT the USB Drive";
             this.formatDiskButton.UseVisualStyleBackColor = false;
@@ -208,12 +209,23 @@
             this.label1.TabIndex = 22;
             this.label1.Text = "* - encryption with your password";
             // 
+            // help_button
+            // 
+            this.help_button.Location = new System.Drawing.Point(935, 12);
+            this.help_button.Name = "help_button";
+            this.help_button.Size = new System.Drawing.Size(57, 41);
+            this.help_button.TabIndex = 23;
+            this.help_button.Text = "Help";
+            this.help_button.UseVisualStyleBackColor = true;
+            this.help_button.Click += new System.EventHandler(this.help_button_Click);
+            // 
             // Main
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1004, 677);
+            this.Controls.Add(this.help_button);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.EditUsers);
             this.Controls.Add(this.labelCompressionStatus);
@@ -259,5 +271,6 @@
         private System.Windows.Forms.ProgressBar progressBarEncryption1;
         private System.Windows.Forms.Label labelCompressionStatus;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button help_button;
     }
 }

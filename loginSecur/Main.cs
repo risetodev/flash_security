@@ -46,8 +46,8 @@ namespace loginSecur
         {
             try
             {
-                //Environment.Exit(0);
-                Application.Exit();
+                Environment.Exit(0);
+                //Application.Exit();
             }
             catch (Exception i) { MessageBox.Show(i.ToString()); }
         }
@@ -332,6 +332,11 @@ namespace loginSecur
                 progressBarEncryption1.Value = 0;
                 return;
             } catch (Exception i) { MessageBox.Show(i.ToString()); return; }           
+        }
+
+        private void help_button_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "help.chm");
         }
     }
 }

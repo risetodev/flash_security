@@ -217,5 +217,10 @@ namespace loginSecur
             chooseUserToDelete.SelectedIndex = -1;           
             refreshUsersCombobox();
         }
+
+        private void help_button_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "help.chm");
+        }
     }
 }

@@ -37,6 +37,7 @@
             this.idBox = new System.Windows.Forms.TextBox();
             this.passwordBox = new System.Windows.Forms.TextBox();
             this.selectUSBLabel = new System.Windows.Forms.Label();
+            this.help_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ID
@@ -130,6 +131,16 @@
             this.selectUSBLabel.TabIndex = 12;
             this.selectUSBLabel.Text = "Select USB Drive:";
             // 
+            // help_button
+            // 
+            this.help_button.Location = new System.Drawing.Point(5, 139);
+            this.help_button.Name = "help_button";
+            this.help_button.Size = new System.Drawing.Size(56, 31);
+            this.help_button.TabIndex = 13;
+            this.help_button.Text = "Help";
+            this.help_button.UseVisualStyleBackColor = true;
+            this.help_button.Click += new System.EventHandler(this.help_button_Click);
+            // 
             // Enter
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
@@ -138,6 +149,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(480, 241);
+            this.Controls.Add(this.help_button);
             this.Controls.Add(this.selectUSBLabel);
             this.Controls.Add(this.passwordBox);
             this.Controls.Add(this.idBox);
@@ -168,6 +180,7 @@
         public System.Windows.Forms.Button EnterInSys;
         public System.Windows.Forms.TextBox passwordBox;
         public System.Windows.Forms.Label selectUSBLabel;
+        private System.Windows.Forms.Button help_button;
     }
 }
 

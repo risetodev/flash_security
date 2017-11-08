@@ -43,6 +43,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.chooseUserToDelete = new System.Windows.Forms.ComboBox();
             this.DeleteFromDBButton = new System.Windows.Forms.Button();
+            this.help_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -182,6 +183,16 @@
             this.DeleteFromDBButton.UseVisualStyleBackColor = true;
             this.DeleteFromDBButton.Click += new System.EventHandler(this.DeleteFromDBButton_Click);
             // 
+            // help_button
+            // 
+            this.help_button.Location = new System.Drawing.Point(434, 5);
+            this.help_button.Name = "help_button";
+            this.help_button.Size = new System.Drawing.Size(56, 34);
+            this.help_button.TabIndex = 25;
+            this.help_button.Text = "Help";
+            this.help_button.UseVisualStyleBackColor = true;
+            this.help_button.Click += new System.EventHandler(this.help_button_Click);
+            // 
             // NewUser
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 22F);
@@ -189,6 +200,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(502, 415);
+            this.Controls.Add(this.help_button);
             this.Controls.Add(this.DeleteFromDBButton);
             this.Controls.Add(this.chooseUserToDelete);
             this.Controls.Add(this.label6);
@@ -233,5 +245,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox chooseUserToDelete;
         private System.Windows.Forms.Button DeleteFromDBButton;
+        private System.Windows.Forms.Button help_button;
     }
 }

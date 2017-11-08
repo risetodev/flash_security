@@ -56,8 +56,7 @@ namespace loginSecur
             MainForm = new Main();
             regNewUser = new NewUser();
             EditUSB = new USBEditig();
-        }
-
+        }      
 
         /// <summary>
         /// Method gets the List of UsersList
@@ -291,7 +290,7 @@ namespace loginSecur
                         MainForm.passwordCheck = passwordBox.Text;
                         this.Hide();
                         MainForm.ShowDialog();
-                        //this.Show();
+                        this.Show();
                         hideInterface();
                     }                   
                     else buf++;
@@ -381,6 +380,11 @@ namespace loginSecur
         private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void help_button_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "help.chm");
         }
     }
 }
