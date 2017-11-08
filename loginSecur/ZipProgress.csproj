@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{05811FE6-78EE-4E7E-B621-27EF66420865}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZipProgress</RootNamespace>
+    <AssemblyName>ZipProgress</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="dotNetZip\ComHelper.cs" />
+    <Compile Include="dotNetZip\Crc32.cs" />
+    <Compile Include="dotNetZip\Deflate.cs" />
+    <Compile Include="dotNetZip\DeflateStream.cs" />
+    <Compile Include="dotNetZip\EncryptionAlgorithm.cs" />
+    <Compile Include="dotNetZip\Events.cs" />
+    <Compile Include="dotNetZip\Exceptions.cs" />
+    <Compile Include="dotNetZip\ExtractExistingFileAction.cs" />
+    <Compile Include="dotNetZip\FileSelector.cs" />
+    <Compile Include="dotNetZip\GZipStream.cs" />
+    <Compile Include="dotNetZip\Inflate.cs" />
+    <Compile Include="dotNetZip\InfTree.cs" />
+    <Compile Include="dotNetZip\OffsetStream.cs" />
+    <Compile Include="dotNetZip\ParallelDeflateOutputStream.cs" />
+    <Compile Include="dotNetZip\Shared.cs" />
+    <Compile Include="dotNetZip\Tree.cs" />
+    <Compile Include="dotNetZip\WinZipAes.cs" />
+    <Compile Include="dotNetZip\ZipConstants.cs" />
+    <Compile Include="dotNetZip\ZipCrypto.cs" />
+    <Compile Include="dotNetZip\ZipDirEntry.cs" />
+    <Compile Include="dotNetZip\ZipEntry.cs" />
+    <Compile Include="dotNetZip\ZipEntry.Extract.cs" />
+    <Compile Include="dotNetZip\ZipEntry.Read.cs" />
+    <Compile Include="dotNetZip\ZipEntry.Write.cs" />
+    <Compile Include="dotNetZip\ZipEntrySource.cs" />
+    <Compile Include="dotNetZip\ZipErrorAction.cs" />
+    <Compile Include="dotNetZip\ZipFile.AddUpdate.cs" />
+    <Compile Include="dotNetZip\ZipFile.Check.cs" />
+    <Compile Include="dotNetZip\ZipFile.cs" />
+    <Compile Include="dotNetZip\ZipFile.Events.cs" />
+    <Compile Include="dotNetZip\ZipFile.Extract.cs" />
+    <Compile Include="dotNetZip\ZipFile.Read.cs" />
+    <Compile Include="dotNetZip\ZipFile.Save.cs" />
+    <Compile Include="dotNetZip\ZipFile.SaveSelfExtractor.cs" />
+    <Compile Include="dotNetZip\ZipFile.Selector.cs" />
+    <Compile Include="dotNetZip\ZipFile.x-IEnumerable.cs" />
+    <Compile Include="dotNetZip\ZipInputStream.cs" />
+    <Compile Include="dotNetZip\ZipOutputStream.cs" />
+    <Compile Include="dotNetZip\ZipSegmentedStream.cs" />
+    <Compile Include="dotNetZip\Zlib.cs" />
+    <Compile Include="dotNetZip\ZlibBaseStream.cs" />
+    <Compile Include="dotNetZip\ZlibCodec.cs" />
+    <Compile Include="dotNetZip\ZlibConstants.cs" />
+    <Compile Include="dotNetZip\ZlibStream.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="dotNetZip\Migrated rules for Zip Partial DLL.ruleset" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dotNetZip\LICENSE.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

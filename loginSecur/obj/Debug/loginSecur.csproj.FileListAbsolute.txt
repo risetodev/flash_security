@@ -1,0 +1,588 @@
+d:\Visual Studio 2017\Projects\loginSecur\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+d:\Visual Studio 2017\Projects\loginSecur\loginSecur\obj\Debug\loginSecur.Form1.resources
+d:\Visual Studio 2017\Projects\loginSecur\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+d:\Visual Studio 2017\Projects\loginSecur\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+d:\Visual Studio 2017\Projects\loginSecur\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+d:\Visual Studio 2017\Projects\loginSecur\loginSecur\bin\Debug\loginSecur.exe.config
+d:\Visual Studio 2017\Projects\loginSecur\loginSecur\bin\Debug\loginSecur.exe
+d:\Visual Studio 2017\Projects\loginSecur\loginSecur\bin\Debug\loginSecur.pdb
+d:\Visual Studio 2017\Projects\loginSecur\loginSecur\obj\Debug\loginSecur.exe
+d:\Visual Studio 2017\Projects\loginSecur\loginSecur\obj\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.0\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Visual Studio 2017\Projects\loginSecur1.0\loginSecur\bin\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.0\loginSecur\bin\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Visual Studio 2017\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Visual Studio 2017\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.pdb
+D:\loginSecur1.0\loginSecur\bin\Debug\loginSecur.exe.config
+D:\loginSecur1.0\loginSecur\bin\Debug\loginSecur.exe
+D:\loginSecur1.0\loginSecur\bin\Debug\loginSecur.pdb
+D:\loginSecur1.0\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\loginSecur1.0\loginSecur\obj\Debug\loginSecur.Form1.resources
+D:\loginSecur1.0\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\loginSecur1.0\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\loginSecur1.0\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\loginSecur1.0\loginSecur\obj\Debug\loginSecur.exe
+D:\loginSecur1.0\loginSecur\obj\Debug\loginSecur.pdb
+D:\loginSecur1.0\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\loginSecur1.0\loginSecur\bin\Debug\loginSecur.application
+D:\loginSecur1.0\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\loginSecur1.0\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\loginSecur1.0\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.0\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.0\loginSecur\bin\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Visual Studio 2017\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.Form1.resources
+D:\Projects\loginSecur1.0\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Projects\loginSecur1.0\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.0\loginSecur\bin\Debug\loginSecur.application
+D:\Projects\loginSecur1.0\loginSecur\bin\Debug\loginSecur.exe
+D:\Projects\loginSecur1.0\loginSecur\bin\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.Form1.resources
+D:\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.application
+D:\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.exe
+D:\Projects\loginSecur1.0\loginSecur\obj\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.1\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Projects\loginSecur1.1\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.1\loginSecur\bin\Debug\loginSecur.application
+D:\Projects\loginSecur1.1\loginSecur\bin\Debug\loginSecur.exe
+D:\Projects\loginSecur1.1\loginSecur\bin\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.Form1.resources
+D:\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.application
+D:\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.exe
+D:\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.1\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Visual Studio 2017\Projects\loginSecur1.1\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.1\loginSecur\bin\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.1\loginSecur\bin\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.1\loginSecur\bin\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.Form1.resources
+D:\Visual Studio 2017\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Visual Studio 2017\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Visual Studio 2017\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Visual Studio 2017\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.Form2.resources
+D:\Visual Studio 2017\Projects\loginSecur1.1\loginSecur\obj\Debug\loginSecur.dialogForNewUSB.resources
+D:\Visual Studio 2017\Projects\loginSecur1.2\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Visual Studio 2017\Projects\loginSecur1.2\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.2\loginSecur\bin\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.2\loginSecur\bin\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.2\loginSecur\bin\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.dialogForNewUSB.resources
+D:\Visual Studio 2017\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.Form1.resources
+D:\Visual Studio 2017\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.Form2.resources
+D:\Visual Studio 2017\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Visual Studio 2017\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Visual Studio 2017\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Visual Studio 2017\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.dialogForNewUSB.resources
+D:\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.Form1.resources
+D:\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.Form2.resources
+D:\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.exe
+D:\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.2\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Projects\loginSecur1.2\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.2\loginSecur\bin\Debug\loginSecur.application
+D:\Projects\loginSecur1.2\loginSecur\bin\Debug\loginSecur.exe
+D:\Projects\loginSecur1.2\loginSecur\bin\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.2\loginSecur\obj\Debug\loginSecur.application
+D:\Projects\loginSecur1.3\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Projects\loginSecur1.3\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.3\loginSecur\bin\Debug\loginSecur.application
+D:\Projects\loginSecur1.3\loginSecur\bin\Debug\loginSecur.exe
+D:\Projects\loginSecur1.3\loginSecur\bin\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.dialogForNewUSB.resources
+D:\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.Form1.resources
+D:\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.Form2.resources
+D:\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.application
+D:\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.exe
+D:\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.3\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Visual Studio 2017\Projects\loginSecur1.3\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.3\loginSecur\bin\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.3\loginSecur\bin\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.3\loginSecur\bin\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.dialogForNewUSB.resources
+D:\Visual Studio 2017\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.Form1.resources
+D:\Visual Studio 2017\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.Form2.resources
+D:\Visual Studio 2017\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Visual Studio 2017\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Visual Studio 2017\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Visual Studio 2017\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.3\loginSecur\obj\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.4 array\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Visual Studio 2017\Projects\loginSecur1.4 array\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.4 array\loginSecur\bin\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.4 array\loginSecur\bin\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.4 array\loginSecur\bin\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.4 array\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\Projects\loginSecur1.4 array\loginSecur\obj\Debug\loginSecur.dialogForNewUSB.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 array\loginSecur\obj\Debug\loginSecur.Form1.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 array\loginSecur\obj\Debug\loginSecur.Form2.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 array\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 array\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Visual Studio 2017\Projects\loginSecur1.4 array\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Projects\loginSecur1.4 array\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Visual Studio 2017\Projects\loginSecur1.4 array\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.4 array\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.4 array\loginSecur\obj\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.4 array\loginSecur\obj\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.Form1.resources
+D:\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.Form2.resources
+D:\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.exe
+D:\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.4 only driveInfo\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Projects\loginSecur1.4 only driveInfo\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.4 only driveInfo\loginSecur\bin\Debug\loginSecur.application
+D:\Projects\loginSecur1.4 only driveInfo\loginSecur\bin\Debug\loginSecur.exe
+D:\Projects\loginSecur1.4 only driveInfo\loginSecur\bin\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo\loginSecur\bin\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo\loginSecur\bin\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo\loginSecur\bin\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.Form1.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.Form2.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo\loginSecur\obj\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber)\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber)\loginSecur\obj\Debug\loginSecur.Form1.resources
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber)\loginSecur\obj\Debug\loginSecur.Form2.resources
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber)\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber)\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber)\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber)\loginSecur\obj\Debug\loginSecur.exe
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber)\loginSecur\obj\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber)\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber)\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber)\loginSecur\bin\Debug\loginSecur.application
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber)\loginSecur\bin\Debug\loginSecur.exe
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber)\loginSecur\bin\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber)\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber)\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber)\loginSecur\obj\Debug\loginSecur.application
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.application
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.exe
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.Form1.resources
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.Form2.resources
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.application
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.exe
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.pdb
+H:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+H:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.Form1.resources
+H:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.Form2.resources
+H:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+H:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+H:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+H:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.exe
+H:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.pdb
+H:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.exe.config
+H:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.exe.manifest
+H:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.application
+H:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.exe
+H:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.pdb
+H:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+H:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.exe.manifest
+H:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.Form1.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.Form2.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.application
+G:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.exe.config
+G:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.exe.manifest
+G:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.application
+G:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.exe
+G:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\bin\Debug\loginSecur.pdb
+G:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+G:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.Form1.resources
+G:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.Form2.resources
+G:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+G:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+G:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+G:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+G:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.exe.manifest
+G:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.application
+G:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.exe
+G:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\bin\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\bin\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\bin\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\obj\Debug\loginSecur.Form1.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\obj\Debug\loginSecur.Form2.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\obj\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\obj\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\obj\Debug\loginSecur.addingNewUSBDrive.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\obj\Debug\loginSecur.AuthorizeUSBDrive.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\obj\Debug\loginSecur.Enter.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\obj\Debug\loginSecur.Main.resources
+D:\Visual Studio 2017\Projects\loginSecur1.4 only driveInfo + systemManegment(derialNuber) + txt2\loginSecur\obj\Debug\loginSecur.AuthorizeUSBDrive_DeleteUSBDrive.resources
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\bin\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\bin\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\bin\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.AuthorizeUSBDrive_DeleteUSBDrive.resources
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.Enter.resources
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.Main.resources
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.5\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Projects\loginSecur1.5\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.5\loginSecur\bin\Debug\loginSecur.application
+D:\Projects\loginSecur1.5\loginSecur\bin\Debug\loginSecur.exe
+D:\Projects\loginSecur1.5\loginSecur\bin\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.AuthorizeUSBDrive_DeleteUSBDrive.resources
+D:\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.Enter.resources
+D:\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.Main.resources
+D:\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.application
+D:\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.exe
+D:\Projects\loginSecur1.5\loginSecur\obj\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.Enter.resources
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.Main.resources
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.USBEditig.resources
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.exe
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\bin\Debug\loginSecur.application
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\bin\Debug\loginSecur.exe
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\bin\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\bin\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\bin\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\bin\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.Enter.resources
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.Main.resources
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.USBEditig.resources
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.5 remaking usb authorizer\loginSecur\obj\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\bin\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\bin\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\bin\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\obj\Debug\loginSecur.Enter.resources
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\obj\Debug\loginSecur.Main.resources
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\obj\Debug\loginSecur.USBEditig.resources
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\obj\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.6\loginSecur\obj\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\bin\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\bin\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\bin\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.Enter.resources
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.Main.resources
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.USBEditig.resources
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt\loginSecur\bin\Debug\Ionic.Zip.dll
+D:\Projects\loginSecur1.6 encrypt\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Projects\loginSecur1.6 encrypt\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.6 encrypt\loginSecur\bin\Debug\loginSecur.application
+D:\Projects\loginSecur1.6 encrypt\loginSecur\bin\Debug\loginSecur.exe
+D:\Projects\loginSecur1.6 encrypt\loginSecur\bin\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.6 encrypt\loginSecur\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Projects\loginSecur1.6 encrypt\loginSecur\bin\Debug\Ionic.Zip.dll
+D:\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.Enter.resources
+D:\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.Main.resources
+D:\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.USBEditig.resources
+D:\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.application
+D:\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.exe
+D:\Projects\loginSecur1.6 encrypt\loginSecur\obj\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.Enter.resources
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.Main.resources
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.USBEditig.resources
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.exe
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\bin\Debug\loginSecur.application
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\bin\Debug\loginSecur.exe
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\bin\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\bin\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\bin\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\bin\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.Enter.resources
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.Main.resources
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.USBEditig.resources
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.6 encrypt progressBar\loginSecur\obj\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.7\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Projects\loginSecur1.7\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.7\loginSecur\bin\Debug\loginSecur.application
+D:\Projects\loginSecur1.7\loginSecur\bin\Debug\loginSecur.exe
+D:\Projects\loginSecur1.7\loginSecur\bin\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.7\loginSecur\bin\Debug\Ionic.Zip.dll
+D:\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.Enter.resources
+D:\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.Main.resources
+D:\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.USBEditig.resources
+D:\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.application
+D:\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.exe
+D:\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\bin\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\bin\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\bin\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\bin\Debug\Ionic.Zip.dll
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.Enter.resources
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.Main.resources
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.USBEditig.resources
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.7\loginSecur\obj\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\bin\Debug\loginSecur.application
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\bin\Debug\loginSecur.exe
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\bin\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\bin\Debug\Ionic.Zip.dll
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.Enter.resources
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.Main.resources
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.USBEditig.resources
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.application
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.exe
+D:\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\bin\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\bin\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\bin\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\bin\Debug\Ionic.Zip.dll
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.Enter.resources
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.Main.resources
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.USBEditig.resources
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.7 one progressBar\loginSecur\obj\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.8 help\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Projects\loginSecur1.8 help\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.8 help\loginSecur\bin\Debug\loginSecur.application
+D:\Projects\loginSecur1.8 help\loginSecur\bin\Debug\loginSecur.exe
+D:\Projects\loginSecur1.8 help\loginSecur\bin\Debug\loginSecur.pdb
+D:\Projects\loginSecur1.8 help\loginSecur\bin\Debug\Ionic.Zip.dll
+D:\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.Enter.resources
+D:\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.Main.resources
+D:\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.USBEditig.resources
+D:\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.application
+D:\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.exe
+D:\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\bin\Debug\loginSecur.exe.config
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\bin\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\bin\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\bin\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\bin\Debug\loginSecur.pdb
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\bin\Debug\Ionic.Zip.dll
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.Enter.resources
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.Main.resources
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.USBEditig.resources
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.NewUser.resources
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.Properties.Resources.resources
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.csproj.GenerateResource.Cache
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.TrustInfo.xml
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.exe.manifest
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.application
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.exe
+D:\Visual Studio 2017\Projects\loginSecur1.8 help\loginSecur\obj\Debug\loginSecur.pdb
