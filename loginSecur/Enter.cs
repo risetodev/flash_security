@@ -291,7 +291,7 @@ namespace loginSecur
                         MainForm.passwordCheck = passwordBox.Text;
                         this.Hide();
                         MainForm.ShowDialog();
-                        this.Show();
+                        //this.Show();
                         hideInterface();
                     }                   
                     else buf++;

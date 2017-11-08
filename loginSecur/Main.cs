@@ -45,8 +45,9 @@ namespace loginSecur
         private void emergencyExit_Click(object sender, EventArgs e)
         {
             try
-            {                
-                Environment.Exit(0);
+            {
+                //Environment.Exit(0);
+                Application.Exit();
             }
             catch (Exception i) { MessageBox.Show(i.ToString()); }
         }
