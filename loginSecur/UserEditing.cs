@@ -55,13 +55,7 @@ namespace loginSecur
             }
         }
 
-        /// <summary>
-        /// Method adds new User in DB
-        /// </summary>
-        void AddNewUser()
-        {
-           
-        }
+   
 
         private void NewUser_Load(object sender, EventArgs e)
         {
@@ -111,6 +105,7 @@ namespace loginSecur
                 }
                 if (similarUsersList == true)
                 {
+                    ID.Clear();
                     firstPassword.Clear();
                     secondPassword.Clear();
                     radioButtonAdmin.Checked = false;

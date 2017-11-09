@@ -39,7 +39,7 @@ namespace loginSecur
             getUSBListComboBox();            
             GetDataBaseInList();                     
             HashCodeGenarator();
-            selectUSBDrive();
+          
             foreach (var i in USBDrivesList)
             {
                 comboBox1.Items.Add(i.name + " " + i.volumeLabel + " " + i.totalSize);
@@ -144,7 +144,8 @@ namespace loginSecur
         /// Add new USB Drive in DataBase
         /// </summary>
         public void GetDataBaseInList()
-        {            
+        {
+            USBDataBaseList.Clear();
             string bufVolumeLabel = "";
             string bufSize = "";            
             var dataBase = File.ReadAllLines("DataBase.txt");
@@ -226,6 +227,7 @@ namespace loginSecur
                 {
                 case DEVICE_INSERT:
                     {
+                        hideInterface();
                         comboBox1.Items.Clear();
                         DeviceQuery.Start();
                         Thread.Sleep(500);                                              
@@ -325,7 +327,7 @@ namespace loginSecur
         void selectUSBDrive()
         {
             int buf = 0;
-            GetDataBaseInList();            
+           // GetDataBaseInList();            
             if (comboBox1.SelectedItem == null)
             {
                 MessageBox.Show("Choose the USB Drive!");
@@ -357,6 +359,8 @@ namespace loginSecur
         private void checkButton_Click(object sender, EventArgs e)
         {           
             hideInterface();
+            GetDataBaseInList();
+            HashCodeGenarator();
             selectUSBDrive();            
         }
 
