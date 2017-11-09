@@ -223,36 +223,41 @@ namespace loginSecur
             switch (m.Msg)
             {
             case WM_DEVICE_CHANGE:
-                switch ((int)m.WParam)
-                {
-                case DEVICE_INSERT:
                     {
-                        hideInterface();
-                        comboBox1.Items.Clear();
-                        DeviceQuery.Start();
-                        Thread.Sleep(500);                                              
-                        foreach (var i in USBDrivesList)
+                        switch ((int)m.WParam)
                         {
-                            comboBox1.Items.Add(i.name + " " + i.volumeLabel + " " + i.totalSize);
+                            case DEVICE_INSERT:
+                                {
+                                   // MessageBox.Show(((int)m.WParam).ToString());
+                                    hideInterface();
+                                    comboBox1.Items.Clear();
+                                    DeviceQuery.Start();
+                                    Thread.Sleep(500);
+                                    foreach (var i in USBDrivesList)
+                                    {
+                                        comboBox1.Items.Add(i.name + " " + i.volumeLabel + " " + i.totalSize);
+                                    }
+                                    DeviceQuery.Abort();
+                                    break;
+                                }
+                            case DEVICE_REMOVE:
+                                {
+                                   // MessageBox.Show(((int)m.WParam).ToString());
+                                    hideInterface();
+                                    comboBox1.Items.Clear();
+                                    DeviceQuery.Start();
+                                    Thread.Sleep(500);
+                                    foreach (var i in USBDrivesList)
+                                    {
+                                        comboBox1.Items.Add(i.name + " " + i.volumeLabel + " " + i.totalSize);
+                                    }
+                                    DeviceQuery.Abort();
+                                    break;
+                                }
                         }
-                        DeviceQuery.Abort();
                         break;
+
                     }
-                case DEVICE_REMOVE:
-                    {
-                        hideInterface();
-                        comboBox1.Items.Clear();
-                        DeviceQuery.Start();
-                        Thread.Sleep(500);
-                        foreach (var i in USBDrivesList)
-                        {
-                            comboBox1.Items.Add(i.name + " " + i.volumeLabel + " " + i.totalSize);
-                        }
-                        DeviceQuery.Abort();                        
-                        break;
-                    }
-                }
-                break;
             }
         }      
                 

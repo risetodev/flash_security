@@ -19,11 +19,18 @@ namespace loginSecur
 {
     public partial class Main : Form
     {
+
+     
+
+
         private Enter EnterForm;
         private NewUser regNewUser;
         private USBEditig editUSBs;
         List<User> USERS = new List<User>();
-        
+
+        private const int WM_DEVICE_CHANGE = 0x219;
+        private const int DEVICE_INSERT = 0x8000;
+        private const int DEVICE_REMOVE = 0x8004;
 
         public Main()
         {            
@@ -36,7 +43,7 @@ namespace loginSecur
             regNewUser = new NewUser();
             editUSBs = new USBEditig();
         }
-        
+
         /// <summary>
         /// Abort the programme
         /// </summary>
@@ -50,7 +57,9 @@ namespace loginSecur
                 //Application.Exit();
             }
             catch (Exception i) { MessageBox.Show(i.ToString()); }
-        }
+
+        }               
+
 
         private void button3_Click(object sender, EventArgs e)
         {
