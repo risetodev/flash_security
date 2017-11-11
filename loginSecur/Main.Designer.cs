@@ -168,7 +168,7 @@
             this.AdminLabel.Font = new System.Drawing.Font("Cambria", 20.25F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.AdminLabel.ForeColor = System.Drawing.Color.Lime;
-            this.AdminLabel.Location = new System.Drawing.Point(7, 574);
+            this.AdminLabel.Location = new System.Drawing.Point(6, 564);
             this.AdminLabel.Name = "AdminLabel";
             this.AdminLabel.Size = new System.Drawing.Size(227, 64);
             this.AdminLabel.TabIndex = 13;
@@ -178,7 +178,8 @@
             // 
             // progressBarEncryption1
             // 
-            this.progressBarEncryption1.Location = new System.Drawing.Point(13, 448);
+            this.progressBarEncryption1.AccessibleRole = System.Windows.Forms.AccessibleRole.StatusBar;
+            this.progressBarEncryption1.Location = new System.Drawing.Point(12, 653);
             this.progressBarEncryption1.Name = "progressBarEncryption1";
             this.progressBarEncryption1.Size = new System.Drawing.Size(980, 24);
             this.progressBarEncryption1.TabIndex = 14;
@@ -187,15 +188,16 @@
             // 
             // labelCompressionStatus
             // 
+            this.labelCompressionStatus.AccessibleRole = System.Windows.Forms.AccessibleRole.StatusBar;
             this.labelCompressionStatus.AutoSize = true;
             this.labelCompressionStatus.BackColor = System.Drawing.Color.Transparent;
             this.labelCompressionStatus.Font = new System.Drawing.Font("Cambria", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelCompressionStatus.ForeColor = System.Drawing.Color.Lime;
-            this.labelCompressionStatus.Location = new System.Drawing.Point(8, 423);
+            this.labelCompressionStatus.Location = new System.Drawing.Point(12, 628);
             this.labelCompressionStatus.Name = "labelCompressionStatus";
-            this.labelCompressionStatus.Size = new System.Drawing.Size(79, 22);
+            this.labelCompressionStatus.Size = new System.Drawing.Size(90, 22);
             this.labelCompressionStatus.TabIndex = 21;
-            this.labelCompressionStatus.Text = "Process:";
+            this.labelCompressionStatus.Text = "Progress:";
             this.labelCompressionStatus.Visible = false;
             this.labelCompressionStatus.Click += new System.EventHandler(this.labelCompressionStatus_Click);
             // 

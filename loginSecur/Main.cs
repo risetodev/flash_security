@@ -128,7 +128,7 @@ namespace loginSecur
         private void EncryptButton_Click(object sender, EventArgs e)
         {
             try
-            {
+            {               
                 labelCompressionStatus.Visible = true;
                 progressBarEncryption1.Visible = true;
                 string DirectoryToZip = webBrowser1.Url.ToString().Substring(8);
@@ -168,11 +168,11 @@ namespace loginSecur
         {
             if (e.EventType == ZipProgressEventType.Saving_EntryBytesRead)
             {
-                progressBarEncryption1.Value = (int)((e.BytesTransferred * 100) / e.TotalBytesToTransfer);
+                progressBarEncryption1.Value = (int)((e.BytesTransferred * 100) / e.TotalBytesToTransfer);                
             }           
             else if (e.EventType == ZipProgressEventType.Saving_Completed)
             {              
-                 progressBarEncryption1.Value = 0;
+                 progressBarEncryption1.Value = 0;                 
                  progressBarEncryption1.Visible = false;
                  labelCompressionStatus.Visible = false;
             }
@@ -186,8 +186,8 @@ namespace loginSecur
         private void DecryptButton_Click(object sender, EventArgs e)
         {
             try
-            {
-                string password = ShowDialog("ID's password ", "Confirmation");
+            {                
+                string password = ShowDialog("ID's password ", "Confirmation");                
                 if (password == passwordCheck)
                 {
                     labelCompressionStatus.Visible = true;
@@ -275,6 +275,31 @@ namespace loginSecur
         }
 
 
+        // try to bring progressbar in alone window...
+        /* 
+        void ShowProgressBar(int progress)
+        {
+            Form prompt = new Form()
+            {
+                FormBorderStyle = FormBorderStyle.FixedToolWindow,
+                StartPosition = FormStartPosition.CenterScreen
+            };
+            prompt.Width = 510;
+            prompt.Height = 150;           
+            prompt.ControlBox = false;
+            Label labelCompression = new Label() { Left = 50, Top = 20, Text = "Progress:" };
+            ProgressBar progressBar = new ProgressBar() { Left = 50, Top = 50, Width = 400 };
+            prompt.Controls.Add(labelCompression);
+            prompt.Controls.Add(progressBar);
+            prompt.ShowDialog();
+            progressBar.Value += progress;
+            if (progressBar.Value == 100)
+            {
+                prompt.Close();
+            }
+        }
+
+            */
 
         private void progressBarEncryption1_Click(object sender, EventArgs e)
         {
