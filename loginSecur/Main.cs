@@ -240,7 +240,7 @@ namespace loginSecur
                         }
                     }
                 }               
-                string password = ShowDialog("ID's password ", "Confirmation");                
+                string password = ShowDialog("Password:", "Confirmation");                
                 if (password == passwordCheck)
                 {
                     showProgress();
@@ -309,8 +309,10 @@ namespace loginSecur
             prompt.Height = 150;
             prompt.Text = caption;
             prompt.ControlBox = false;            
-            Label textLabel = new Label() { Left = 50, Top = 20, Text = text };
-            TextBox textBox = new TextBox() { Left = 50, Top = 50, Width = 400 };
+            prompt.BackgroundImage = System.Drawing.Image.FromFile(@"promt.jpg");//address of your image
+            prompt.BackgroundImageLayout = ImageLayout.Stretch;
+            Label textLabel = new Label() { Left = 5, Top = 50, Width = 70,  Text = text};
+            TextBox textBox = new TextBox() { Left = 80, Top = 50, Width = 400 };
             Button confirmation = new Button() { Text = "Submit", Left = 350, Width = 100, Top = 70 };
             Button cancel = new Button() { Text = "Cancel", Left = 250, Width = 100, Top = 70 };
             confirmation.Click += (sender, e) => { prompt.Close(); };
@@ -318,8 +320,10 @@ namespace loginSecur
             textBox.PasswordChar = '*';
             textBox.Focus();            
             prompt.Controls.Add(confirmation);
-            prompt.Controls.Add(cancel);
+            prompt.Controls.Add(cancel);            
             prompt.Controls.Add(textLabel);
+            textLabel.BackColor = Color.Transparent;
+            textLabel.ForeColor = Color.White;
             prompt.Controls.Add(textBox);
             prompt.ShowDialog();
             return textBox.Text.ToString();
