@@ -26,7 +26,7 @@ namespace loginSecur
         
         public Main()
         {            
-            InitializeComponent();              
+            InitializeComponent();            
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -55,17 +55,13 @@ namespace loginSecur
         {
             try
             {
+                File.Delete(pathForPassword + @"\Key.txt");
                 Environment.Exit(0);
                 //Application.Exit();
             }
             catch (Exception i) { MessageBox.Show(i.ToString()); return; }
         }               
-
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-                      
-        }
+                        
 
         private void buttonBack_Click(object sender, EventArgs e)
         {
@@ -98,6 +94,9 @@ namespace loginSecur
             EditUsers.Visible = true;
         }
 
+        /// <summary>
+        /// Makes admin right invisible
+        /// </summary>
         public void hideAdminRights()
         {
             AdminLabel.Visible = false;
@@ -106,6 +105,9 @@ namespace loginSecur
             EditUsers.Visible = false;
         }
 
+        /// <summary>
+        /// Show progressBar
+        /// </summary>
         void showProgress()
         {
             labelCompressionStatus.Visible = true;
@@ -113,6 +115,9 @@ namespace loginSecur
             this.Refresh();
         }
 
+        /// <summary>
+        /// Hide progressBar
+        /// </summary>
         void hideProgress()
         {
             progressBarEncryption1.Value = 0;
@@ -142,10 +147,34 @@ namespace loginSecur
             regNewUser.ShowDialog();
             this.Show();
         }
+                
+        string passwordCheck;
+        public string pathForPassword = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+        /// <summary>
+        /// Password generator for archive. The "Key.txt" will delete from Desktop when you close this app
+        /// </summary>
+        void passwordGenerator()
+        {
+            var rand = new Random();
+            for (int i = 0; i < 20; i++)
+            {
+                passwordCheck += (char)rand.Next(0x21, 0x7E);
+                /*passwordCheck += (char)rand.Next(0x30,0x39);
+                passwordCheck += (char)rand.Next(0x41, 0x5A);
+                passwordCheck += (char)rand.Next(0x61, 0x7A);*/
+            }                        
+            using (StreamWriter key = new StreamWriter(pathForPassword + @"\Key.txt"))
+            {
+                key.WriteLine(passwordCheck);
+                key.Close();
+            }
+            using (StreamWriter key = new StreamWriter(@"hashKey.txt"))
+            {
+                key.WriteLine(passwordCheck.GetHashCode());
+                key.Close();
+            }
+        }
 
-        public string passwordCheck { get; set; }
-
-        DialogResult reEncrypt;
 
         /// <summary>
         /// Zip and encrypt archive
@@ -156,6 +185,7 @@ namespace loginSecur
         {
             try
             {
+                passwordGenerator();                
                 string DirectoryToZip = webBrowser1.Url.ToString().Substring(8);
                 string ZipFileToCreate = (webBrowser1.Url.ToString() + "archive.zip").Substring(8);
                 System.IO.DirectoryInfo dir = new DirectoryInfo(DirectoryToZip);
@@ -183,8 +213,9 @@ namespace loginSecur
                             {
                                 di.Delete(true);
                             }
-                            webBrowser1.Refresh();
-                            MessageBox.Show("Done! Successfully encrypted!");
+                            this.Refresh();
+                            MessageBox.Show("Done! Successfully encrypted!\nThis is your password for decryption: " + passwordCheck + " \nRemember it!");
+                            File.Delete(pathForPassword + @"\Key.txt");
                         }
                         return;
                     }
@@ -247,9 +278,14 @@ namespace loginSecur
                             return;
                         }
                     }
-                }               
+                }
+                var hashKey = File.ReadAllLines(@"hashKey.txt");
+                foreach (var i in hashKey)
+                {
+                    passwordCheck = i;
+                }
                 string password = ShowDialog("Password:", "Confirmation");                
-                if (password == passwordCheck)
+                if (password.GetHashCode().ToString() == passwordCheck)
                 {
                     showProgress();
                     using (var zip = ZipFile.Read(archivePath))

@@ -56,8 +56,8 @@ namespace loginSecur
             MainForm = new Main();
             regNewUser = new NewUser();
             EditUSB = new USBEditig();
-        }
-
+        }     
+       
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
             if (keyData == Keys.F1)
@@ -308,7 +308,7 @@ namespace loginSecur
                         {                           
                             MainForm.hideAdminRights();                            
                         }
-                        MainForm.passwordCheck = passwordBox.Text;
+                        //MainForm.passwordCheck = passwordBox.Text;
                         this.Hide();
                         MainForm.ShowDialog();
                         this.Show();

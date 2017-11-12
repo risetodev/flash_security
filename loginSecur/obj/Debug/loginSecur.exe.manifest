@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="loginSecur.exe" size="1373696">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="loginSecur.exe" size="1374208">
       <assemblyIdentity name="loginSecur" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+7PJ3WmiGMZqGF8gxVsb31G85bL/xkNje5MFcRTeJvQ=</dsig:DigestValue>
+        <dsig:DigestValue>udohSFHfTJWW7W6optCr9pYI6YGgCd2LUWK58/wyCiM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
