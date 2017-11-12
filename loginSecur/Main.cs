@@ -131,6 +131,7 @@ namespace loginSecur
             {               
                 labelCompressionStatus.Visible = true;
                 progressBarEncryption1.Visible = true;
+                this.Refresh();
                 string DirectoryToZip = webBrowser1.Url.ToString().Substring(8);
                 string ZipFileToCreate = (webBrowser1.Url.ToString() + "archive.zip").Substring(8);
                 using (ZipFile zip = new ZipFile())
@@ -141,7 +142,7 @@ namespace loginSecur
                     zip.Password = passwordCheck;
                     zip.Encryption = EncryptionAlgorithm.WinZipAes256;
                     zip.AddDirectory(DirectoryToZip);
-                    zip.Save(ZipFileToCreate);
+                    zip.Save(ZipFileToCreate);                  
                     ////////////////////////////////////////////////////////////////////s//Delete filse except archive.zip
                     System.IO.DirectoryInfo dir = new DirectoryInfo(DirectoryToZip);
                     foreach (FileInfo file in dir.GetFiles())
@@ -153,6 +154,7 @@ namespace loginSecur
                     {
                         di.Delete(true);
                     }
+                    webBrowser1.Refresh();
                     MessageBox.Show("Done! Successfully encrypted!");
                 }
             }
@@ -165,17 +167,17 @@ namespace loginSecur
         /// <param name="sender"></param>
         /// <param name="e"></param>
         public void saveProgress(object sender, SaveProgressEventArgs e)
-        {
+        {           
             if (e.EventType == ZipProgressEventType.Saving_EntryBytesRead)
-            {
+            {                
                 progressBarEncryption1.Value = (int)((e.BytesTransferred * 100) / e.TotalBytesToTransfer);                
             }           
             else if (e.EventType == ZipProgressEventType.Saving_Completed)
-            {              
-                 progressBarEncryption1.Value = 0;                 
-                 progressBarEncryption1.Visible = false;
-                 labelCompressionStatus.Visible = false;
-            }
+            {                
+                progressBarEncryption1.Value = 0;                 
+                progressBarEncryption1.Visible = false;
+                labelCompressionStatus.Visible = false;
+            }            
         }        
 
         /// <summary>
@@ -192,6 +194,7 @@ namespace loginSecur
                 {
                     labelCompressionStatus.Visible = true;
                     progressBarEncryption1.Visible = true;
+                    this.Refresh();
                     string startPath = webBrowser1.Url.ToString().Substring(8);
                     string archivePath = (webBrowser1.Url.ToString() + "archive.zip").Substring(8);
                     using (var zip = ZipFile.Read(archivePath))
@@ -203,7 +206,9 @@ namespace loginSecur
                         //zip.Encryption = EncryptionAlgorithm.WinZipAes256;
                         var selection = from i in zip.Entries select i;
                         foreach (var i in selection)
-                            i.Extract(startPath);
+                        {
+                            i.Extract(startPath);                                                     
+                        }
                     }
                     System.IO.DirectoryInfo dir = new DirectoryInfo(startPath);
                     foreach (FileInfo file in dir.GetFiles())
@@ -211,9 +216,10 @@ namespace loginSecur
                         if (file.Name == "archive.zip")
                             file.Delete();
                     }
+                    webBrowser1.Refresh();
                     progressBarEncryption1.Value = 0;
                     progressBarEncryption1.Visible = false;
-                    labelCompressionStatus.Visible = false;
+                    labelCompressionStatus.Visible = false;                    
                     MessageBox.Show("Done! Successfully decrypted!");
                 }
                 else if(password == "esc")
@@ -236,8 +242,8 @@ namespace loginSecur
         public void extractProgress(object sender, ExtractProgressEventArgs e)
         {
             if (e.TotalBytesToTransfer > 0)
-            {
-                progressBarEncryption1.Value = (int)((e.BytesTransferred * 100) / e.TotalBytesToTransfer);
+            {               
+                progressBarEncryption1.Value = (int)((e.BytesTransferred * 100) / e.TotalBytesToTransfer);                
             }
         }
 
@@ -273,33 +279,7 @@ namespace loginSecur
             prompt.ShowDialog();
             return textBox.Text.ToString();
         }
-
-
-        // try to bring progressbar in alone window...
-        /* 
-        void ShowProgressBar(int progress)
-        {
-            Form prompt = new Form()
-            {
-                FormBorderStyle = FormBorderStyle.FixedToolWindow,
-                StartPosition = FormStartPosition.CenterScreen
-            };
-            prompt.Width = 510;
-            prompt.Height = 150;           
-            prompt.ControlBox = false;
-            Label labelCompression = new Label() { Left = 50, Top = 20, Text = "Progress:" };
-            ProgressBar progressBar = new ProgressBar() { Left = 50, Top = 50, Width = 400 };
-            prompt.Controls.Add(labelCompression);
-            prompt.Controls.Add(progressBar);
-            prompt.ShowDialog();
-            progressBar.Value += progress;
-            if (progressBar.Value == 100)
-            {
-                prompt.Close();
-            }
-        }
-
-            */
+        
 
         private void progressBarEncryption1_Click(object sender, EventArgs e)
         {
@@ -334,7 +314,8 @@ namespace loginSecur
                     di.Delete(true);
                 }
                 MessageBox.Show("Successfully formatted!");*/
-                progressBarEncryption1.Visible = true;              
+                progressBarEncryption1.Visible = true;
+                this.Refresh();
                 int maxValue = 0, x = 0;
                 string startPath = webBrowser1.Url.ToString().Substring(8);
                 DirectoryInfo dir = new DirectoryInfo(startPath);
@@ -360,7 +341,8 @@ namespace loginSecur
                     x++;
                     di.Delete(true);
                     progressBarEncryption1.Value = (int)((x / maxValue) * 100);
-                }                
+                }
+                webBrowser1.Refresh();
                 MessageBox.Show("Successfully formatted!");
                 progressBarEncryption1.Visible = false;
                 progressBarEncryption1.Value = 0;

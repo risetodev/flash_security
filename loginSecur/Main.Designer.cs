@@ -65,7 +65,7 @@
             this.webBrowser1.Location = new System.Drawing.Point(12, 57);
             this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
             this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(980, 320);
+            this.webBrowser1.Size = new System.Drawing.Size(980, 266);
             this.webBrowser1.TabIndex = 1;
             this.webBrowser1.DocumentCompleted += new System.Windows.Forms.WebBrowserDocumentCompletedEventHandler(this.webBrowser1_DocumentCompleted);
             // 
@@ -117,7 +117,7 @@
             // 
             // EncryptButton
             // 
-            this.EncryptButton.Location = new System.Drawing.Point(901, 383);
+            this.EncryptButton.Location = new System.Drawing.Point(900, 329);
             this.EncryptButton.Name = "EncryptButton";
             this.EncryptButton.Size = new System.Drawing.Size(92, 39);
             this.EncryptButton.TabIndex = 6;
@@ -127,7 +127,7 @@
             // 
             // DecryptButton
             // 
-            this.DecryptButton.Location = new System.Drawing.Point(804, 383);
+            this.DecryptButton.Location = new System.Drawing.Point(803, 329);
             this.DecryptButton.Name = "DecryptButton";
             this.DecryptButton.Size = new System.Drawing.Size(91, 39);
             this.DecryptButton.TabIndex = 7;
@@ -178,7 +178,7 @@
             // 
             // progressBarEncryption1
             // 
-            this.progressBarEncryption1.AccessibleRole = System.Windows.Forms.AccessibleRole.StatusBar;
+            this.progressBarEncryption1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.progressBarEncryption1.Location = new System.Drawing.Point(12, 653);
             this.progressBarEncryption1.Name = "progressBarEncryption1";
             this.progressBarEncryption1.Size = new System.Drawing.Size(980, 24);
@@ -188,7 +188,7 @@
             // 
             // labelCompressionStatus
             // 
-            this.labelCompressionStatus.AccessibleRole = System.Windows.Forms.AccessibleRole.StatusBar;
+            this.labelCompressionStatus.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.labelCompressionStatus.AutoSize = true;
             this.labelCompressionStatus.BackColor = System.Drawing.Color.Transparent;
             this.labelCompressionStatus.Font = new System.Drawing.Font("Cambria", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -205,7 +205,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(705, 423);
+            this.label1.Location = new System.Drawing.Point(704, 369);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(288, 22);
             this.label1.TabIndex = 22;
@@ -226,7 +226,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1004, 677);
+            this.ClientSize = new System.Drawing.Size(1004, 687);
             this.Controls.Add(this.help_button);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.EditUsers);
