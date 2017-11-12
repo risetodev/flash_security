@@ -51,12 +51,12 @@
             this.emergencyExit.BackColor = System.Drawing.Color.Transparent;
             this.emergencyExit.Font = new System.Drawing.Font("Cambria", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.emergencyExit.ForeColor = System.Drawing.Color.Red;
-            this.emergencyExit.Location = new System.Drawing.Point(689, 12);
+            this.emergencyExit.Location = new System.Drawing.Point(803, 12);
             this.emergencyExit.Margin = new System.Windows.Forms.Padding(5);
             this.emergencyExit.Name = "emergencyExit";
-            this.emergencyExit.Size = new System.Drawing.Size(238, 41);
+            this.emergencyExit.Size = new System.Drawing.Size(124, 41);
             this.emergencyExit.TabIndex = 0;
-            this.emergencyExit.Text = "EMERGENCY SHUTDOWN";
+            this.emergencyExit.Text = "EXIT";
             this.emergencyExit.UseVisualStyleBackColor = false;
             this.emergencyExit.Click += new System.EventHandler(this.emergencyExit_Click);
             // 

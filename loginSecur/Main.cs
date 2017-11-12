@@ -19,19 +19,11 @@ namespace loginSecur
 {
     public partial class Main : Form
     {
-
-     
-
-
         private Enter EnterForm;
         private NewUser regNewUser;
         private USBEditig editUSBs;
         List<User> USERS = new List<User>();
-
-        private const int WM_DEVICE_CHANGE = 0x219;
-        private const int DEVICE_INSERT = 0x8000;
-        private const int DEVICE_REMOVE = 0x8004;
-
+        
         public Main()
         {            
             InitializeComponent();              
@@ -56,8 +48,7 @@ namespace loginSecur
                 Environment.Exit(0);
                 //Application.Exit();
             }
-            catch (Exception i) { MessageBox.Show(i.ToString()); }
-
+            catch (Exception i) { MessageBox.Show(i.ToString()); return; }
         }               
 
 
@@ -96,6 +87,22 @@ namespace loginSecur
             EditUSBDrives.Visible = true;
             EditUsers.Visible = true;
         }
+
+        void showProgress()
+        {
+            labelCompressionStatus.Visible = true;
+            progressBarEncryption1.Visible = true;
+            this.Refresh();
+        }
+
+        void hideProgress()
+        {
+            progressBarEncryption1.Value = 0;
+            progressBarEncryption1.Visible = false;
+            labelCompressionStatus.Visible = false;
+            this.Refresh();
+        }
+
         private void AdminLabel_Click(object sender, EventArgs e)
         {
 
@@ -120,6 +127,7 @@ namespace loginSecur
 
         public string passwordCheck { get; set; }
 
+        DialogResult reEncrypt;
         /// <summary>
         /// Zip and encrypt archive
         /// </summary>
@@ -128,39 +136,54 @@ namespace loginSecur
         private void EncryptButton_Click(object sender, EventArgs e)
         {
             try
-            {               
-                labelCompressionStatus.Visible = true;
-                progressBarEncryption1.Visible = true;
-                this.Refresh();
+            {
                 string DirectoryToZip = webBrowser1.Url.ToString().Substring(8);
                 string ZipFileToCreate = (webBrowser1.Url.ToString() + "archive.zip").Substring(8);
-                using (ZipFile zip = new ZipFile())
+                System.IO.DirectoryInfo dir = new DirectoryInfo(DirectoryToZip);
+                foreach (FileInfo searchFile in dir.GetFiles())
                 {
-                    zip.SaveProgress += saveProgress;
-                    zip.UseUnicodeAsNecessary = true;
-                    zip.CompressionLevel = Ionic.Zlib.CompressionLevel.BestCompression;
-                    zip.Password = passwordCheck;
-                    zip.Encryption = EncryptionAlgorithm.WinZipAes256;
-                    zip.AddDirectory(DirectoryToZip);
-                    zip.Save(ZipFileToCreate);                  
-                    ////////////////////////////////////////////////////////////////////s//Delete filse except archive.zip
-                    System.IO.DirectoryInfo dir = new DirectoryInfo(DirectoryToZip);
-                    foreach (FileInfo file in dir.GetFiles())
+                    if (searchFile.Name != "archive.zip")
                     {
-                        if (file.Name != "archive.zip")
-                            file.Delete();
+                        showProgress();                        
+                        using (ZipFile zip = new ZipFile())
+                        {
+                            zip.SaveProgress += saveProgress;
+                            zip.UseUnicodeAsNecessary = true;
+                            zip.CompressionLevel = Ionic.Zlib.CompressionLevel.BestCompression;
+                            zip.Password = passwordCheck;
+                            zip.Encryption = EncryptionAlgorithm.WinZipAes256;
+                            zip.AddDirectory(DirectoryToZip);
+                            zip.Save(ZipFileToCreate);
+                            //////////////////////////////////////////////////////////////////////Delete filse except archive.zip
+                            foreach (FileInfo file in dir.GetFiles())
+                            {
+                                if (file.Name != "archive.zip")
+                                    file.Delete();
+                            }
+                            foreach (DirectoryInfo di in dir.GetDirectories())
+                            {
+                                di.Delete(true);
+                            }
+                            webBrowser1.Refresh();
+                            MessageBox.Show("Done! Successfully encrypted!");
+                        }
+                        return;
                     }
-                    foreach (DirectoryInfo di in dir.GetDirectories())
+                    else if (searchFile.Name == "archive.zip")
                     {
-                        di.Delete(true);
-                    }
-                    webBrowser1.Refresh();
-                    MessageBox.Show("Done! Successfully encrypted!");
+                        MessageBox.Show("There is already exist encrypted file!");
+                        return;
+                    }                        
                 }
+                if (dir.GetFiles().Length == 0)
+                {
+                    MessageBox.Show("There are no files to encrypt!");
+                    return;
+                }                    
             }
-            catch (Exception i) { MessageBox.Show(i.ToString()); return; }           
+            catch (Exception i) { MessageBox.Show(i.ToString()); hideProgress(); return; }           
         }
-
+     
         /// <summary>
         /// ProgressBar for the encryption 
         /// </summary>
@@ -173,10 +196,8 @@ namespace loginSecur
                 progressBarEncryption1.Value = (int)((e.BytesTransferred * 100) / e.TotalBytesToTransfer);                
             }           
             else if (e.EventType == ZipProgressEventType.Saving_Completed)
-            {                
-                progressBarEncryption1.Value = 0;                 
-                progressBarEncryption1.Visible = false;
-                labelCompressionStatus.Visible = false;
+            {
+                hideProgress();
             }            
         }        
 
@@ -188,15 +209,30 @@ namespace loginSecur
         private void DecryptButton_Click(object sender, EventArgs e)
         {
             try
-            {                
+            {
+                string startPath = webBrowser1.Url.ToString().Substring(8);
+                string archivePath = (webBrowser1.Url.ToString() + "archive.zip").Substring(8);
+                System.IO.DirectoryInfo dir = new DirectoryInfo(startPath);
+                if (dir.GetFiles().Length == 0)
+                {
+                    MessageBox.Show("There are no files to decrypt!");
+                    return;
+                }
+                else
+                {
+                    foreach (FileInfo file in dir.GetFiles())
+                    {
+                        if (file.Name != "archive.zip")
+                        {
+                            MessageBox.Show("There is no file for decryption!");
+                            return;
+                        }
+                    }
+                }               
                 string password = ShowDialog("ID's password ", "Confirmation");                
                 if (password == passwordCheck)
                 {
-                    labelCompressionStatus.Visible = true;
-                    progressBarEncryption1.Visible = true;
-                    this.Refresh();
-                    string startPath = webBrowser1.Url.ToString().Substring(8);
-                    string archivePath = (webBrowser1.Url.ToString() + "archive.zip").Substring(8);
+                    showProgress();
                     using (var zip = ZipFile.Read(archivePath))
                     {
                         zip.ExtractProgress += extractProgress;
@@ -210,16 +246,14 @@ namespace loginSecur
                             i.Extract(startPath);                                                     
                         }
                     }
-                    System.IO.DirectoryInfo dir = new DirectoryInfo(startPath);
+                    
                     foreach (FileInfo file in dir.GetFiles())
                     {
                         if (file.Name == "archive.zip")
                             file.Delete();
                     }
                     webBrowser1.Refresh();
-                    progressBarEncryption1.Value = 0;
-                    progressBarEncryption1.Visible = false;
-                    labelCompressionStatus.Visible = false;                    
+                    hideProgress();                   
                     MessageBox.Show("Done! Successfully decrypted!");
                 }
                 else if(password == "esc")
@@ -231,7 +265,7 @@ namespace loginSecur
                     MessageBox.Show("Error! Invalid password!");
                     return;
                 }
-            } catch (Exception i) { MessageBox.Show(i.ToString()); return; }          
+            } catch (Exception i) { MessageBox.Show(i.ToString()); hideProgress(); return; }          
         }
 
         /// <summary>
@@ -301,7 +335,14 @@ namespace loginSecur
         private void formatDiskButton_Click(object sender, EventArgs e)
         {
             try
-            {/*
+            {
+                string startPath = webBrowser1.Url.ToString().Substring(8);               
+                System.IO.DirectoryInfo dir = new DirectoryInfo(startPath);
+                if (dir.GetFiles().Length == 0)
+                {
+                    MessageBox.Show("There are no files! The Flash drive is already formatted!");
+                    return;
+                }/*
                 string startPath = webBrowser1.Url.ToString().Substring(8);
                 DirectoryInfo dir = new DirectoryInfo(startPath);
                 ////////////////////////////////////////////////////////////////////s//Delete filse except archive.zip
@@ -314,12 +355,9 @@ namespace loginSecur
                     di.Delete(true);
                 }
                 MessageBox.Show("Successfully formatted!");*/
-                progressBarEncryption1.Visible = true;
-                this.Refresh();
-                int maxValue = 0, x = 0;
-                string startPath = webBrowser1.Url.ToString().Substring(8);
-                DirectoryInfo dir = new DirectoryInfo(startPath);
-                //////////////////////////////////////////////////////////////////////Delete filse except archive.zip
+                showProgress();
+                int maxValue = 0, x = 0;             
+               
                 foreach (FileInfo file in dir.GetFiles())
                 {
                     maxValue++;
@@ -342,12 +380,11 @@ namespace loginSecur
                     di.Delete(true);
                     progressBarEncryption1.Value = (int)((x / maxValue) * 100);
                 }
-                webBrowser1.Refresh();
+                this.Refresh();
                 MessageBox.Show("Successfully formatted!");
-                progressBarEncryption1.Visible = false;
-                progressBarEncryption1.Value = 0;
+                hideProgress();
                 return;
-            } catch (Exception i) { MessageBox.Show(i.ToString()); return; }           
+            } catch (Exception i) { MessageBox.Show(i.ToString()); hideProgress(); return; }           
         }
 
         private void help_button_Click(object sender, EventArgs e)
