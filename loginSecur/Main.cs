@@ -33,7 +33,17 @@ namespace loginSecur
         {
             EnterForm = new Enter();
             regNewUser = new NewUser();
-            editUSBs = new USBEditig();
+            editUSBs = new USBEditig();            
+        }
+
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.F1)
+            {
+                Help.ShowHelp(this, "help.chm");
+                return true;
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
         }
 
         /// <summary>
@@ -128,6 +138,7 @@ namespace loginSecur
         public string passwordCheck { get; set; }
 
         DialogResult reEncrypt;
+
         /// <summary>
         /// Zip and encrypt archive
         /// </summary>

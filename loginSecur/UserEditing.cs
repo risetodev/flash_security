@@ -23,7 +23,17 @@ namespace loginSecur
             GetUsersListInList();
             refreshUsersCombobox();
         }
-        
+
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.F1)
+            {
+                Help.ShowHelp(this, "help.chm");
+                return true;
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+
         /// <summary>
         /// Method gets the List of UsersList
         /// </summary>

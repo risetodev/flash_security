@@ -27,6 +27,16 @@ namespace loginSecur
             refreshComboBox2();
         }
 
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.F1)
+            {
+                Help.ShowHelp(this, "help.chm");
+                return true;
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
+
         /// <summary>
         /// Add new USB Drive in DataBase
         /// </summary>

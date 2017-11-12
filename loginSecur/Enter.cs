@@ -50,13 +50,23 @@ namespace loginSecur
                 return;
             }
         }
-
+        
         private void Form1_Load(object sender, EventArgs e)
         {
             MainForm = new Main();
             regNewUser = new NewUser();
             EditUSB = new USBEditig();
-        }      
+        }
+
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.F1)
+            {
+                Help.ShowHelp(this, "help.chm");
+                return true;
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
 
         /// <summary>
         /// Method gets the List of UsersList
