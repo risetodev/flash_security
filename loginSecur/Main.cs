@@ -98,6 +98,14 @@ namespace loginSecur
             EditUsers.Visible = true;
         }
 
+        public void hideAdminRights()
+        {
+            AdminLabel.Visible = false;
+            AdminRightsLabel.Visible = false;
+            EditUSBDrives.Visible = false;
+            EditUsers.Visible = false;
+        }
+
         void showProgress()
         {
             labelCompressionStatus.Visible = true;

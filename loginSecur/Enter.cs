@@ -304,6 +304,10 @@ namespace loginSecur
                         {
                             MainForm.showAdminRights();
                         }
+                        else if (i.ID[0] == 'U')
+                        {                           
+                            MainForm.hideAdminRights();                            
+                        }
                         MainForm.passwordCheck = passwordBox.Text;
                         this.Hide();
                         MainForm.ShowDialog();
