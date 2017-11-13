@@ -154,7 +154,7 @@ namespace loginSecur
         /// Password generator for archive. The "Key.txt" will delete from Desktop when you close this app
         /// </summary>
         void passwordGenerator()
-        {
+        {            
             var rand = new Random();
             for (int i = 0; i < 20; i++)
             {
@@ -162,12 +162,7 @@ namespace loginSecur
                 /*passwordCheck += (char)rand.Next(0x30,0x39);
                 passwordCheck += (char)rand.Next(0x41, 0x5A);
                 passwordCheck += (char)rand.Next(0x61, 0x7A);*/
-            }                        
-            using (StreamWriter key = new StreamWriter(pathForPassword + @"\Key.txt"))
-            {
-                key.WriteLine(passwordCheck);
-                key.Close();
-            }
+            }            
             using (StreamWriter key = new StreamWriter(@"hashKey.txt"))
             {
                 key.WriteLine(passwordCheck.GetHashCode());
@@ -214,6 +209,11 @@ namespace loginSecur
                                 di.Delete(true);
                             }
                             this.Refresh();
+                            using (StreamWriter key = new StreamWriter(pathForPassword + @"\Key.txt"))
+                            {
+                                key.WriteLine(passwordCheck);
+                                key.Close();
+                            }
                             MessageBox.Show("Done! Successfully encrypted!\nThis is your password for decryption: " + passwordCheck + " \nRemember it!");
                             File.Delete(pathForPassword + @"\Key.txt");
                         }
