@@ -170,7 +170,7 @@ namespace loginSecur
             }
         }
 
-
+        string path = "";
         /// <summary>
         /// Zip and encrypt archive
         /// </summary>
@@ -182,6 +182,7 @@ namespace loginSecur
             {
                 passwordGenerator();                
                 string DirectoryToZip = webBrowser1.Url.ToString().Substring(8);
+                path = DirectoryToZip;
                 string ZipFileToCreate = (webBrowser1.Url.ToString() + "archive.zip").Substring(8);
                 System.IO.DirectoryInfo dir = new DirectoryInfo(DirectoryToZip);
                 foreach (FileInfo searchFile in dir.GetFiles())
@@ -193,9 +194,10 @@ namespace loginSecur
                         {
                             zip.SaveProgress += saveProgress;
                             zip.UseUnicodeAsNecessary = true;
-                            zip.CompressionLevel = Ionic.Zlib.CompressionLevel.BestCompression;
+                            zip.CompressionMethod = CompressionMethod.None;
+                            zip.CompressionLevel = Ionic.Zlib.CompressionLevel.BestSpeed;
                             zip.Password = passwordCheck;
-                            zip.Encryption = EncryptionAlgorithm.WinZipAes256;
+                            zip.Encryption = EncryptionAlgorithm.WinZipAes256;                                                       
                             zip.AddDirectory(DirectoryToZip);
                             zip.Save(ZipFileToCreate);
                             //////////////////////////////////////////////////////////////////////Delete filse except archive.zip
@@ -208,6 +210,7 @@ namespace loginSecur
                             {
                                 di.Delete(true);
                             }
+                            ////////////////////////////////////////////////////////////////////////////////////////////////////
                             this.Refresh();
                             using (StreamWriter key = new StreamWriter(pathForPassword + @"\Key.txt"))
                             {
@@ -251,6 +254,7 @@ namespace loginSecur
             }            
         }        
 
+
         /// <summary>
         ///  Unzip and decrypt archive
         /// </summary>
@@ -260,25 +264,24 @@ namespace loginSecur
         {
             try
             {
+                int buf = 0;
                 string startPath = webBrowser1.Url.ToString().Substring(8);
                 string archivePath = (webBrowser1.Url.ToString() + "archive.zip").Substring(8);
-                System.IO.DirectoryInfo dir = new DirectoryInfo(startPath);
-                if (dir.GetFiles().Length == 0)
+                System.IO.DirectoryInfo dir = new DirectoryInfo(startPath);                       
+                foreach (FileInfo file in dir.GetFiles())
                 {
-                    MessageBox.Show("There are no files to decrypt!");
-                    return;
-                }
-                else
-                {
-                    foreach (FileInfo file in dir.GetFiles())
+                    if (file.Name == "archive.zip")
                     {
-                        if (file.Name != "archive.zip")
-                        {
-                            MessageBox.Show("There is no file for decryption!");
-                            return;
-                        }
+                        goto dec;
                     }
+                    else buf++;
                 }
+                if (buf == dir.GetFiles().Length)
+                {
+                    MessageBox.Show("There is no file to decrypt!");
+                    return;
+                } 
+                dec:
                 var hashKey = File.ReadAllLines(@"hashKey.txt");
                 foreach (var i in hashKey)
                 {
@@ -298,10 +301,9 @@ namespace loginSecur
                         var selection = from i in zip.Entries select i;
                         foreach (var i in selection)
                         {
-                            i.Extract(startPath);                                                     
+                            i.Extract(startPath, ExtractExistingFileAction.OverwriteSilently);                                                     
                         }
-                    }
-                    
+                    }                    
                     foreach (FileInfo file in dir.GetFiles())
                     {
                         if (file.Name == "archive.zip")
