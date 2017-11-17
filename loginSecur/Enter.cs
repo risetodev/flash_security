@@ -260,6 +260,7 @@ namespace loginSecur
         protected override void WndProc(ref Message m)
         {
             Thread DeviceQuery = new Thread(getUSBListComboBox);
+            Thread relDeviceQuery = new Thread(getUSBListComboBox);
             base.WndProc(ref m);
             switch (m.Msg)
             {
@@ -281,7 +282,27 @@ namespace loginSecur
                                     break;
                                 }
                             case DEVICE_REMOVE:
-                                {
+                                {                                   
+                                    relDeviceQuery.Start();
+                                    Thread.Sleep(500);
+                                    int buf = 0;
+                                    foreach (var i in USBDataBaseList)
+                                    {
+                                        foreach (var j in USBDrivesList)
+                                        {
+                                            if (i.volumeLabel == j.volumeLabel && i.totalSize == j.totalSize)
+                                            {
+                                                buf++;
+                                                break;
+                                            }
+                                        }
+                                    }
+                                    if (buf == 0)
+                                    {                                        
+                                        MessageBox.Show("This software works only with authorized Flash-drives!");
+                                        CloseProgram();
+                                    }
+                                    relDeviceQuery.Abort();
                                     hideInterface();
                                     comboBox1.Items.Clear();
                                     DeviceQuery.Start();
@@ -337,7 +358,16 @@ namespace loginSecur
                         {                           
                             MainForm.hideAdminRights();                            
                         }
-                        //MainForm.passwordCheck = passwordBox.Text;
+                        foreach (var j in USBDataBaseList)
+                        {
+                            selectedUSBDrive = comboBox1.SelectedItem.ToString();
+                            selectedUSBDrive = System.Text.RegularExpressions.Regex.Replace(selectedUSBDrive, @"\s+", "");
+                            if (j.hashCodeOfTheUSB == selectedUSBDrive.GetHashCode())
+                            {                                
+                                MainForm.webBrowser1.Url = new Uri(j.name);
+                                break;
+                            }                            
+                        }
                         this.Hide();
                         MainForm.ShowDialog();
                         this.Show();
@@ -367,8 +397,7 @@ namespace loginSecur
         {
             
         }
-
-        public string Path = "";
+               
         /// <summary>
         /// Method for adding USB Drives in a list(comboBox1) and add new in DataBase
         /// </summary>
@@ -389,9 +418,7 @@ namespace loginSecur
                     selectedUSBDrive = System.Text.RegularExpressions.Regex.Replace(selectedUSBDrive, @"\s+", "");
                     if (i.hashCodeOfTheUSB == selectedUSBDrive.GetHashCode())
                     {
-                        showInterface();                         
-                        MainForm.webBrowser1.Url = new Uri(i.name);
-                        Path = i.name;
+                        showInterface();
                         break;
                     }
                     else buf++;
