@@ -21,12 +21,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_14A851591D6448BDA9F81BECE99C8E5F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_34FC58DF7447AA7322778A9EDE518ADE"
         "OwnerKey" = "8:_79381504186948E5BEF33E0F41D69B3B"
         "MsmSig" = "8:_UNDEFINED"
@@ -64,12 +58,6 @@
         "Entry"
         {
         "MsmKey" = "8:_DB507440725643E5B679FD27E48809B1"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EDB4BEA5740542708C27706F62CDF693"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -160,6 +148,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
             }
         }
     }
@@ -219,26 +215,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_14A851591D6448BDA9F81BECE99C8E5F"
-            {
-            "SourcePath" = "8:..\\loginSecur\\bin\\Debug\\Users backup.txt"
-            "TargetName" = "8:Users backup.txt"
-            "Tag" = "8:"
-            "Folder" = "8:_BDDBA522EEE14E5CB0E9BF2CBCFE789E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:TRUE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_34FC58DF7447AA7322778A9EDE518ADE"
@@ -394,26 +370,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EDB4BEA5740542708C27706F62CDF693"
-            {
-            "SourcePath" = "8:..\\loginSecur\\bin\\Debug\\DataBase backup.txt"
-            "TargetName" = "8:DataBase backup.txt"
-            "Tag" = "8:"
-            "Folder" = "8:_BDDBA522EEE14E5CB0E9BF2CBCFE789E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:TRUE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
         }
         "FileType"
         {
@@ -482,7 +438,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Flash Security"
         "ProductCode" = "8:{197018DF-A1F9-4840-9FC0-79A2D6560529}"
-        "PackageCode" = "8:{E1D999FF-F734-4DAA-9370-B8F705405371}"
+        "PackageCode" = "8:{485D857F-F2A9-41A3-BACA-26A7C946B44C}"
         "UpgradeCode" = "8:{E0AB574F-49BC-4B35-8E37-FE8E30AE9F0A}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
