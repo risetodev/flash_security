@@ -1,6 +1,0 @@
-Aadmin,123
-Uuser,321
-Aruslan,112233
-Umisha,123
-Adenis,321
-Usasha,228

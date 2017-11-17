@@ -21,25 +21,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_0246D399E596DD3E047B12AE81833734"
-        "OwnerKey" = "8:_B4A136B2CE8E4015AEB61B8B906E2B40"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_14A851591D6448BDA9F81BECE99C8E5F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_210C1DB0AED749A7B734ADB5155F98E7"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_26FC121819E34429B98A5810DBBFB777"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -51,24 +33,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_35CE9932DFCB442DBCB5802174CDEE2A"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_378FC8A7438D4419AD681EEE3C079907"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_3BA87F70243A45169295CAB311814ABA"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_438B604E21D0F3E16671958F1E6E10D4"
         "OwnerKey" = "8:_79381504186948E5BEF33E0F41D69B3B"
         "MsmSig" = "8:_UNDEFINED"
@@ -76,18 +40,6 @@
         "Entry"
         {
         "MsmKey" = "8:_45483F1637E74B4982E8F264F4F8EA7E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_53DD8808E3DD4AD0AD46B6C798E03FD2"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_53F3A91A86704A9788AACA603FE85661"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -105,19 +57,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_6C5EEDADD5084EEF8CF4E617237934B9"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_79381504186948E5BEF33E0F41D69B3B"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_B4A136B2CE8E4015AEB61B8B906E2B40"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -131,36 +71,6 @@
         {
         "MsmKey" = "8:_EDB4BEA5740542708C27706F62CDF693"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F4AC9E971B10446EB5F2AA8A5FC710AB"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F593D0C404CB4C60AEC848C8C753C688"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_55D06B31BC9A18684DC65E72F9699FE2"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_B4A136B2CE8E4015AEB61B8B906E2B40"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_26FC121819E34429B98A5810DBBFB777"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -187,6 +97,12 @@
         "OwnerKey" = "8:_438B604E21D0F3E16671958F1E6E10D4"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_55D06B31BC9A18684DC65E72F9699FE2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -205,6 +121,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -221,6 +153,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -301,57 +241,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_210C1DB0AED749A7B734ADB5155F98E7"
-            {
-            "SourcePath" = "8:..\\loginSecur\\bin\\Debug\\Users.txt"
-            "TargetName" = "8:Users.txt"
-            "Tag" = "8:"
-            "Folder" = "8:_BDDBA522EEE14E5CB0E9BF2CBCFE789E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:TRUE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_26FC121819E34429B98A5810DBBFB777"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_26FC121819E34429B98A5810DBBFB777"
-                    {
-                    "Name" = "8:Ionic.Zip.dll"
-                    "Attributes" = "3:514"
-                    }
-                }
-            "SourcePath" = "8:..\\loginSecur\\bin\\Debug\\Ionic.Zip.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_BDDBA522EEE14E5CB0E9BF2CBCFE789E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:TRUE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_34FC58DF7447AA7322778A9EDE518ADE"
             {
             "AssemblyRegister" = "3:1"
@@ -381,66 +270,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_35CE9932DFCB442DBCB5802174CDEE2A"
-            {
-            "SourcePath" = "8:..\\loginSecur\\bin\\Debug\\hashKey.txt"
-            "TargetName" = "8:hashKey.txt"
-            "Tag" = "8:"
-            "Folder" = "8:_BDDBA522EEE14E5CB0E9BF2CBCFE789E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:TRUE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_378FC8A7438D4419AD681EEE3C079907"
-            {
-            "SourcePath" = "8:..\\loginSecur\\bin\\Debug\\DotNetZip-o4opps5o.tmp"
-            "TargetName" = "8:DotNetZip-o4opps5o.tmp"
-            "Tag" = "8:"
-            "Folder" = "8:_BDDBA522EEE14E5CB0E9BF2CBCFE789E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:TRUE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3BA87F70243A45169295CAB311814ABA"
-            {
-            "SourcePath" = "8:..\\loginSecur\\bin\\Debug\\loginSecur.application"
-            "TargetName" = "8:loginSecur.application"
-            "Tag" = "8:"
-            "Folder" = "8:_BDDBA522EEE14E5CB0E9BF2CBCFE789E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:TRUE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_438B604E21D0F3E16671958F1E6E10D4"
@@ -478,46 +307,6 @@
             {
             "SourcePath" = "8:..\\loginSecur\\bin\\Debug\\promt.jpg"
             "TargetName" = "8:promt.jpg"
-            "Tag" = "8:"
-            "Folder" = "8:_BDDBA522EEE14E5CB0E9BF2CBCFE789E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:TRUE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_53DD8808E3DD4AD0AD46B6C798E03FD2"
-            {
-            "SourcePath" = "8:..\\loginSecur\\bin\\Debug\\loginSecur.pdb"
-            "TargetName" = "8:loginSecur.pdb"
-            "Tag" = "8:"
-            "Folder" = "8:_BDDBA522EEE14E5CB0E9BF2CBCFE789E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:TRUE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_53F3A91A86704A9788AACA603FE85661"
-            {
-            "SourcePath" = "8:..\\loginSecur\\bin\\Debug\\DataBase.txt"
-            "TargetName" = "8:DataBase.txt"
             "Tag" = "8:"
             "Folder" = "8:_BDDBA522EEE14E5CB0E9BF2CBCFE789E"
             "Condition" = "8:"
@@ -585,57 +374,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6C5EEDADD5084EEF8CF4E617237934B9"
-            {
-            "SourcePath" = "8:..\\loginSecur\\bin\\Debug\\loginSecur.exe.config"
-            "TargetName" = "8:loginSecur.exe.config"
-            "Tag" = "8:"
-            "Folder" = "8:_BDDBA522EEE14E5CB0E9BF2CBCFE789E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:TRUE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B4A136B2CE8E4015AEB61B8B906E2B40"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:loginSecur, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_B4A136B2CE8E4015AEB61B8B906E2B40"
-                    {
-                    "Name" = "8:loginSecur.exe"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:..\\loginSecur\\bin\\Debug\\loginSecur.exe"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_BDDBA522EEE14E5CB0E9BF2CBCFE789E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DB507440725643E5B679FD27E48809B1"
             {
             "SourcePath" = "8:..\\loginSecur\\backgrounds\\addingNewUSBDrive_icon.ico"
@@ -660,46 +398,6 @@
             {
             "SourcePath" = "8:..\\loginSecur\\bin\\Debug\\DataBase backup.txt"
             "TargetName" = "8:DataBase backup.txt"
-            "Tag" = "8:"
-            "Folder" = "8:_BDDBA522EEE14E5CB0E9BF2CBCFE789E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:TRUE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F4AC9E971B10446EB5F2AA8A5FC710AB"
-            {
-            "SourcePath" = "8:..\\loginSecur\\bin\\Debug\\loginSecur.exe.manifest"
-            "TargetName" = "8:loginSecur.exe.manifest"
-            "Tag" = "8:"
-            "Folder" = "8:_BDDBA522EEE14E5CB0E9BF2CBCFE789E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:TRUE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F593D0C404CB4C60AEC848C8C753C688"
-            {
-            "SourcePath" = "8:..\\loginSecur\\bin\\Debug\\DotNetZip-cpommhxi.tmp"
-            "TargetName" = "8:DotNetZip-cpommhxi.tmp"
             "Tag" = "8:"
             "Folder" = "8:_BDDBA522EEE14E5CB0E9BF2CBCFE789E"
             "Condition" = "8:"
@@ -784,7 +482,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Flash Security"
         "ProductCode" = "8:{197018DF-A1F9-4840-9FC0-79A2D6560529}"
-        "PackageCode" = "8:{CE45F92A-8363-4B86-B031-9BFE60635DF4}"
+        "PackageCode" = "8:{E1D999FF-F734-4DAA-9370-B8F705405371}"
         "UpgradeCode" = "8:{E0AB574F-49BC-4B35-8E37-FE8E30AE9F0A}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"

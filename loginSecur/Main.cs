@@ -22,8 +22,8 @@ namespace loginSecur
         private Enter EnterForm;
         private NewUser regNewUser;
         private USBEditig editUSBs;
-        List<User> USERS = new List<User>();
-        
+        List<User> USERS = new List<User>();        
+
         public Main()
         {            
             InitializeComponent();            
@@ -54,8 +54,7 @@ namespace loginSecur
         private void emergencyExit_Click(object sender, EventArgs e)
         {
             try
-            {
-                File.Delete(pathForPassword + @"\Key.txt");
+            {               
                 Environment.Exit(0);
                 //Application.Exit();
             }
@@ -163,8 +162,8 @@ namespace loginSecur
                 passwordCheck += (char)rand.Next(0x41, 0x5A);
                 passwordCheck += (char)rand.Next(0x61, 0x7A);*/
             }            
-            using (StreamWriter key = new StreamWriter(@"hashKey.txt"))
-            {
+            using (StreamWriter key = new StreamWriter(EnterForm.PATH + "hashKey.txt"))
+            {               
                 key.WriteLine(passwordCheck.GetHashCode());
                 key.Close();
             }
@@ -179,15 +178,15 @@ namespace loginSecur
         private void EncryptButton_Click(object sender, EventArgs e)
         {
             try
-            {
+            {                
                 passwordGenerator();                
                 string DirectoryToZip = webBrowser1.Url.ToString().Substring(8);
                 path = DirectoryToZip;
                 string ZipFileToCreate = (webBrowser1.Url.ToString() + "archive.zip").Substring(8);
-                System.IO.DirectoryInfo dir = new DirectoryInfo(DirectoryToZip);
+                System.IO.DirectoryInfo dir = new DirectoryInfo(DirectoryToZip);                
                 foreach (FileInfo searchFile in dir.GetFiles())
                 {
-                    if (searchFile.Name != "archive.zip")
+                    if (searchFile.Name != "archive.zip" && dir.GetDirectories().Length != 0 && dir.GetFiles().Length != 0)
                     {
                         showProgress();                        
                         using (ZipFile zip = new ZipFile())
@@ -217,7 +216,7 @@ namespace loginSecur
                                 key.WriteLine(passwordCheck);
                                 key.Close();
                             }
-                            MessageBox.Show("Done! Successfully encrypted!\nThis is your password for decryption: " + passwordCheck + " \nRemember it!");
+                            MessageBox.Show("Done! Successfully encrypted!\nThis is your password for decryption:\n" + passwordCheck + " \nRemember it!");
                             File.Delete(pathForPassword + @"\Key.txt");
                         }
                         return;
@@ -228,7 +227,7 @@ namespace loginSecur
                         return;
                     }                        
                 }
-                if (dir.GetFiles().Length == 0)
+                if (dir.GetDirectories().Length == 0 && dir.GetFiles().Length == 0)
                 {
                     MessageBox.Show("There are no files to encrypt!");
                     return;
@@ -282,7 +281,7 @@ namespace loginSecur
                     return;
                 } 
                 dec:
-                var hashKey = File.ReadAllLines(@"hashKey.txt");
+                var hashKey = File.ReadAllLines(EnterForm.PATH + "hashKey.txt");
                 foreach (var i in hashKey)
                 {
                     passwordCheck = i;

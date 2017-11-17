@@ -17,6 +17,8 @@ namespace loginSecur
 {
     public partial class Enter : Form
     {
+        public string PATH = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\FlashSecurityData\\";
+
         private const int WM_DEVICE_CHANGE = 0x219;
         private const int DEVICE_INSERT = 0x8000;
         private const int DEVICE_REMOVE = 0x8004;
@@ -30,7 +32,7 @@ namespace loginSecur
         string selectedUSBDrive = "";
         private Main MainForm;
         private NewUser regNewUser;
-        private USBEditig EditUSB;
+        private USBEditig EditUSB;                       
 
         public Enter()
         {
@@ -75,7 +77,7 @@ namespace loginSecur
         {
             string ID = "";
             string password = "";
-            var dataBase = File.ReadAllLines("Users.txt");
+            var dataBase = File.ReadAllLines(PATH + "Users.txt");
             foreach (var i in dataBase)
             {
                 string strBuf = i;
@@ -127,7 +129,7 @@ namespace loginSecur
         /// </summary>
         public void AddNewUSBDriveInDataBase()
         {
-            using (StreamWriter addUSB = File.AppendText("DataBase.txt"))
+            using (StreamWriter addUSB = File.AppendText(PATH + "DataBase.txt"))
             {
                 string buf = comboBox1.SelectedItem.ToString().Remove(0, 3).Trim();
                 var bufArray = buf.ToCharArray();
@@ -158,7 +160,7 @@ namespace loginSecur
             USBDataBaseList.Clear();
             string bufVolumeLabel = "";
             string bufSize = "";            
-            var dataBase = File.ReadAllLines("DataBase.txt");
+            var dataBase = File.ReadAllLines(PATH + "DataBase.txt");
             foreach (var i in dataBase)
             {               
                 string strBuf = i;

@@ -14,14 +14,22 @@ namespace loginSecur
 {
     public partial class NewUser : Form
     {
-        private Main regNewUser;        
+        private Main regNewUser;
+        private Enter EnterForm;
         List<User> UsersList = new List<User>();
+        private string PATH = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\FlashSecurityData\\";
 
         public NewUser()
         {
             InitializeComponent();
             GetUsersListInList();
             refreshUsersCombobox();
+        }
+
+        private void NewUser_Load(object sender, EventArgs e)
+        {
+            regNewUser = new Main();
+            EnterForm = new Enter();
         }
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
@@ -42,7 +50,7 @@ namespace loginSecur
             UsersList.Clear();
             string ID = "";
             string password = "";
-            var dataBase = File.ReadAllLines("Users.txt");
+            var dataBase = File.ReadAllLines(PATH + "Users.txt");
             foreach (var i in dataBase)
             {
                 string strBuf = i;
@@ -64,13 +72,7 @@ namespace loginSecur
                 password = "";
             }
         }
-
-   
-
-        private void NewUser_Load(object sender, EventArgs e)
-        {
-            regNewUser = new Main();
-        }
+             
 
         private void ID_TextChanged(object sender, EventArgs e)
         {
@@ -131,7 +133,7 @@ namespace loginSecur
                 }
                 else if (similarUsersList == false && isTheSame == true && (radioButtonAdmin.Checked == true || radioButtonUser.Checked == true))
                 {
-                    using (StreamWriter NewUserInDB = File.AppendText("Users.txt"))
+                    using (StreamWriter NewUserInDB = File.AppendText(EnterForm.PATH + "Users.txt"))
                     {
                         string buf = "";
                         if (radioButtonAdmin.Checked)
@@ -196,8 +198,8 @@ namespace loginSecur
                 MessageBox.Show("Choose the USB Drive!");
                 return;
             }
-            var dataBase = File.ReadAllLines("Users.txt");
-            File.WriteAllText("Users.txt", string.Empty);
+            var dataBase = File.ReadAllLines(EnterForm.PATH + "Users.txt");
+            File.WriteAllText(EnterForm.PATH + "Users.txt", string.Empty);
             foreach (var i in dataBase)
             {
                 string ID = "";
@@ -211,7 +213,7 @@ namespace loginSecur
                 }               
                 if (chooseUserToDelete.SelectedItem.ToString() != ID)
                 {
-                    using (StreamWriter reWriteDB = File.AppendText("Users.txt"))
+                    using (StreamWriter reWriteDB = File.AppendText(EnterForm.PATH + "Users.txt"))
                     {
                         reWriteDB.WriteLine(i);
                     }
