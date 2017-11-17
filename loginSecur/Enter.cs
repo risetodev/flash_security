@@ -32,21 +32,20 @@ namespace loginSecur
         string selectedUSBDrive = "";
         private Main MainForm;
         private NewUser regNewUser;
-        private USBEditig EditUSB;                       
+        private USBEditig EditUSB;        
 
         public Enter()
         {
-
             InitializeComponent();
             hideInterface();
-            getUSBListComboBox();            
-            GetDataBaseInList();                     
+            getUSBListComboBox();
+            GetDataBaseInList();
             HashCodeGenarator();
             if (USBDrivesList.Count == 0)
             {
-                MessageBox.Show("No USB Drive detected!");
-                return;
-            }
+                MessageBox.Show("No USB Drive detected!\nInsert the Flash-drive and then run this program!");
+                CloseProgram();
+            }             
             else
             {
                 int buf = 0;
@@ -63,22 +62,26 @@ namespace loginSecur
                 }
                 if (buf == 0)
                 {
-                    try
-                    {
-                        MessageBox.Show("This software works only with authorized Flash-drives!");
-                        Environment.Exit(0);
-                        //Application.Exit();
-                    }
-                    catch (Exception q) { MessageBox.Show(q.ToString()); return; }
+                    MessageBox.Show("This software works only with authorized Flash-drives!");
+                    CloseProgram();
                 }
-            }
+            }            
             foreach (var i in USBDrivesList)
             {
                 comboBox1.Items.Add(i.name + " " + i.volumeLabel + " " + i.totalSize);
-            }
-            
+            }            
         }
-        
+
+        public void CloseProgram()
+        {
+            try
+            {
+                Environment.Exit(0);
+                //Application.Exit();
+            }
+            catch (Exception q) { MessageBox.Show(q.ToString()); return; }
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             MainForm = new Main();

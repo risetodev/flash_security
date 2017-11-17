@@ -75,6 +75,7 @@ namespace loginSecur
             }
         }
 
+       
         /// <summary>
         /// looking for moment of inserting the USB Drive
         /// </summary>        
@@ -97,9 +98,13 @@ namespace loginSecur
                                     break;                                    
                                 }
                             case DEVICE_REMOVE:
-                                {
+                                {                                    
                                     getUSBListNewQuery.Start();
                                     Thread.Sleep(500);
+                                    if (USBDrivesListNew.Count == 0)
+                                    {
+                                        EnterForm.CloseProgram();
+                                    }
                                     int buf = 0;                
                                     var leave = USBDrivesListNew.Except(USBDrivesListOLd).ToList();                                   
                                     foreach (var i in leave)
@@ -110,12 +115,7 @@ namespace loginSecur
                                         }
                                         if (buf == leave.Count)
                                         {
-                                            try
-                                            {
-                                                Environment.Exit(0);
-                                                //Application.Exit();
-                                            }
-                                             catch (Exception q) { MessageBox.Show(q.ToString()); return; }
+                                            EnterForm.CloseProgram();
                                         }
                                     }     
                                     getUSBListNewQuery.Abort();
@@ -145,12 +145,7 @@ namespace loginSecur
         /// <param name="e"></param>
         private void emergencyExit_Click(object sender, EventArgs e)
         {
-            try
-            {               
-                Environment.Exit(0);
-                //Application.Exit();
-            }
-            catch (Exception i) { MessageBox.Show(i.ToString()); return; }
+            EnterForm.CloseProgram();
         }               
                         
 
