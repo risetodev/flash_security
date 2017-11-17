@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loginSecur", "loginSecur\loginSecur.csproj", "{FCFC7345-01CB-4ACA-B951-2C80CD20F788}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "loginSecurSetup", "loginSecurSetup\loginSecurSetup.vdproj", "{6564A866-690B-4AC1-9D85-398CA2E55459}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "loginSecurSetup", "loginSecurSetup\loginSecurSetup.vdproj", "{EF2B4F1A-2201-4D4E-B95A-33B8F7F14267}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{FCFC7345-01CB-4ACA-B951-2C80CD20F788}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCFC7345-01CB-4ACA-B951-2C80CD20F788}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCFC7345-01CB-4ACA-B951-2C80CD20F788}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6564A866-690B-4AC1-9D85-398CA2E55459}.Debug|Any CPU.ActiveCfg = Debug
-		{6564A866-690B-4AC1-9D85-398CA2E55459}.Release|Any CPU.ActiveCfg = Release
+		{EF2B4F1A-2201-4D4E-B95A-33B8F7F14267}.Debug|Any CPU.ActiveCfg = Debug
+		{EF2B4F1A-2201-4D4E-B95A-33B8F7F14267}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
