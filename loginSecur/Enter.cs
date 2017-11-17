@@ -327,7 +327,7 @@ namespace loginSecur
             {
                 foreach (var i in UsersList)
                 {
-                    if (i.ID.Substring(1) == idBox.Text && i.Password == passwordBox.Text)
+                    if (i.ID.Substring(1) == idBox.Text && i.Password == passwordBox.Text.GetHashCode().ToString())
                     {
                         if (i.ID[0] == 'A')
                         {

@@ -145,7 +145,7 @@ namespace loginSecur
                             buf += 'U' + ID.Text;
                         }
                         buf += ",";
-                        buf += secondPassword.Text;
+                        buf += secondPassword.Text.GetHashCode();
                         NewUserInDB.WriteLine(buf);
                         NewUserInDB.Close();                        
                         NewUserInDB.Close();
