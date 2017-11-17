@@ -592,7 +592,6 @@ C:\Users\Rise\Desktop\flash_security\loginSecur\bin\Debug\loginSecur.application
 C:\Users\Rise\Desktop\flash_security\loginSecur\bin\Debug\loginSecur.exe
 C:\Users\Rise\Desktop\flash_security\loginSecur\bin\Debug\loginSecur.pdb
 C:\Users\Rise\Desktop\flash_security\loginSecur\bin\Debug\Ionic.Zip.dll
-C:\Users\Rise\Desktop\flash_security\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
 C:\Users\Rise\Desktop\flash_security\loginSecur\obj\Debug\loginSecur.Enter.resources
 C:\Users\Rise\Desktop\flash_security\loginSecur\obj\Debug\loginSecur.Main.resources
 C:\Users\Rise\Desktop\flash_security\loginSecur\obj\Debug\loginSecur.USBEditig.resources

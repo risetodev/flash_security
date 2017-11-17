@@ -16,4 +16,3 @@ C:\Users\Rise\Desktop\flash_security\loginSecur\obj\Release\loginSecur.exe.manif
 C:\Users\Rise\Desktop\flash_security\loginSecur\obj\Release\loginSecur.application
 C:\Users\Rise\Desktop\flash_security\loginSecur\obj\Release\loginSecur.exe
 C:\Users\Rise\Desktop\flash_security\loginSecur\obj\Release\loginSecur.pdb
-C:\Users\Rise\Desktop\flash_security\loginSecur\obj\Release\loginSecur.csprojResolveAssemblyReference.cache
