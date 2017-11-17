@@ -11,6 +11,7 @@ using System.IO;
 using System.Diagnostics;
 using Ionic.Zip;
 using System.Threading;
+using System.Management;
 using System.Security.Cryptography;
 using System.Text.RegularExpressions;
 
@@ -19,6 +20,10 @@ namespace loginSecur
 {
     public partial class Main : Form
     {
+        private const int WM_DEVICE_CHANGE = 0x219;
+        private const int DEVICE_INSERT = 0x8000;
+        private const int DEVICE_REMOVE = 0x8004;
+
         private Enter EnterForm;
         private NewUser regNewUser;
         private USBEditig editUSBs;
@@ -26,7 +31,8 @@ namespace loginSecur
 
         public Main()
         {            
-            InitializeComponent();            
+            InitializeComponent();
+           // getUSBListOld();
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -34,6 +40,92 @@ namespace loginSecur
             EnterForm = new Enter();
             regNewUser = new NewUser();
             editUSBs = new USBEditig();            
+        }
+
+        USBDrive USBInfo = new USBDrive("", "", "");
+        List<USBDrive> USBDrivesListOLd = new List<USBDrive>();
+        List<USBDrive> USBDrivesListNew = new List<USBDrive>();
+
+        /// <summary>
+        /// get the list of installed USB Drives with help of DriveInfo class GetDrives() and checked in "Removable" status
+        /// </summary>
+        public void getUSBListOld()
+        {
+            USBDrivesListOLd.Clear();
+            var getUSBListComboBox = new ManagementObjectSearcher("select * from Win32_DiskDrive where InterfaceType='USB'").Get();
+            foreach (var i in DriveInfo.GetDrives())
+            {
+                if (i.DriveType.ToString() == "Removable")
+                {
+                    USBDrivesListOLd.Add(new USBDrive(i.Name, i.VolumeLabel, i.TotalSize.ToString()));
+                }
+            }
+        }
+
+        public void getUSBListNew()
+        {
+            USBDrivesListNew.Clear();
+            var getUSBListComboBox = new ManagementObjectSearcher("select * from Win32_DiskDrive where InterfaceType='USB'").Get();
+            foreach (var i in DriveInfo.GetDrives())
+            {
+                if (i.DriveType.ToString() == "Removable")
+                {
+                    USBDrivesListNew.Add(new USBDrive(i.Name, i.VolumeLabel, i.TotalSize.ToString()));
+                }
+            }
+        }
+
+        /// <summary>
+        /// looking for moment of inserting the USB Drive
+        /// </summary>        
+        protected override void WndProc(ref Message m)
+        {
+            Thread getUSBListNewQuery = new Thread(getUSBListNew);
+            Thread getUSBListOldQuery = new Thread(getUSBListOld);
+            base.WndProc(ref m);
+            switch (m.Msg)
+            {
+                case WM_DEVICE_CHANGE:
+                    {
+                        switch ((int)m.WParam)
+                        {
+                            case DEVICE_INSERT:
+                                {
+                                    getUSBListNewQuery.Start();
+                                    Thread.Sleep(500);                                   
+                                    getUSBListNewQuery.Abort();
+                                    break;                                    
+                                }
+                            case DEVICE_REMOVE:
+                                {
+                                    getUSBListNewQuery.Start();
+                                    Thread.Sleep(500);
+                                    int buf = 0;                
+                                    var leave = USBDrivesListNew.Except(USBDrivesListOLd).ToList();                                   
+                                    foreach (var i in leave)
+                                    {
+                                        if (i.name.ToString() != ((webBrowser1.Url).ToString().Substring(8, 2) + "\\"))
+                                        {
+                                            buf++;                                                                                       
+                                        }
+                                        if (buf == leave.Count)
+                                        {
+                                            try
+                                            {
+                                                Environment.Exit(0);
+                                                //Application.Exit();
+                                            }
+                                             catch (Exception q) { MessageBox.Show(q.ToString()); return; }
+                                        }
+                                    }     
+                                    getUSBListNewQuery.Abort();
+                                    break;
+                                }
+                        }
+                        break;
+
+                    }
+            }
         }
 
         protected override bool ProcessCmdKey(ref Message msg, Keys keyData)

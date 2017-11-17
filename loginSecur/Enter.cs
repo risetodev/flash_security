@@ -36,21 +36,47 @@ namespace loginSecur
 
         public Enter()
         {
+
             InitializeComponent();
             hideInterface();
             getUSBListComboBox();            
             GetDataBaseInList();                     
             HashCodeGenarator();
-          
-            foreach (var i in USBDrivesList)
-            {
-                comboBox1.Items.Add(i.name + " " + i.volumeLabel + " " + i.totalSize);
-            }
             if (USBDrivesList.Count == 0)
             {
                 MessageBox.Show("No USB Drive detected!");
                 return;
             }
+            else
+            {
+                int buf = 0;
+                foreach (var i in USBDataBaseList)
+                {
+                    foreach (var j in USBDrivesList)
+                    {                        
+                        if (i.volumeLabel == j.volumeLabel && i.totalSize == j.totalSize)
+                        {
+                            buf++;
+                            break;
+                        }
+                    }
+                }
+                if (buf == 0)
+                {
+                    try
+                    {
+                        MessageBox.Show("This software works only with authorized Flash-drives!");
+                        Environment.Exit(0);
+                        //Application.Exit();
+                    }
+                    catch (Exception q) { MessageBox.Show(q.ToString()); return; }
+                }
+            }
+            foreach (var i in USBDrivesList)
+            {
+                comboBox1.Items.Add(i.name + " " + i.volumeLabel + " " + i.totalSize);
+            }
+            
         }
         
         private void Form1_Load(object sender, EventArgs e)
@@ -239,8 +265,7 @@ namespace loginSecur
                         switch ((int)m.WParam)
                         {
                             case DEVICE_INSERT:
-                                {
-                                   // MessageBox.Show(((int)m.WParam).ToString());
+                                {                                  
                                     hideInterface();
                                     comboBox1.Items.Clear();
                                     DeviceQuery.Start();
@@ -254,7 +279,6 @@ namespace loginSecur
                                 }
                             case DEVICE_REMOVE:
                                 {
-                                   // MessageBox.Show(((int)m.WParam).ToString());
                                     hideInterface();
                                     comboBox1.Items.Clear();
                                     DeviceQuery.Start();
