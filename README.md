@@ -1,4 +1,4 @@
-# "Flash security"
+# Flash security
 ![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/welcome.jpg)
 		The program demonstrates our ideas in a field of general security. 
  	"Flash security" program was developed to upend the hardware that provided on the Flash drive. 
@@ -25,7 +25,7 @@
 # 2. Second window "Main menu":
 There are two types of capabilities for the "Main menu", that are depends, if you are: 
 ![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/3.png)
-# - User 
+#  User 
 ![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/4.png)
 # Admin
 
@@ -61,10 +61,10 @@ in addition, here represent Admin's capabilities, such as:
 
 
 All capabilities that is similar in User's window, such as encryption, decryption and format disk
- here works the same! 
+here works the same! 
 So, we can the administrator rights. Admin can edit Users and flash-drives databases:
-### Users editing window
-### USB-Drive editing window
+- Users editing window
+- USB-Drive editing window
 
 # Users editing window:
 ![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/12.png)
