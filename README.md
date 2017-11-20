@@ -1,4 +1,5 @@
 # "Flash security"
+![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/welcome.jpg)
 		The program demonstrates our ideas in a field of general security. 
  	"Flash security" program was developed to upend the hardware that provided on the Flash drive. 
  	The point is to improve hardware security by the software. By that, it means the program level 
@@ -12,7 +13,7 @@
  	representatives that have special level of accessory. 
 
 # 1. Detecting of flash drive and verification. Autentification of User:
-## Before you start, very important feature: if you must emergency to close the program - just eject the Flash-drive!
+![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/2.png)
  	Here, you have to select your USB-Drive, that have to be in the Database. Then click on "Check" 
  	button, that activate procedure for verifying USB-Drive. 
  	Then, if verification successful, in this window will appear new elements, otherwise, nothing 
@@ -22,40 +23,42 @@
 ### Next, the program will open you next window, called "Main menu"... 
 
 # 2. Second window "Main menu":
-There are two types of capabilities for the "Main menu", that are depends, if you are:  User and Admin
+There are two types of capabilities for the "Main menu", that are depends, if you are: 
+![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/3.png)
+# User 
+![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/4.png)
+# Admin
 
 # User's capabilities:
-## Before you start, very important feature: if you must emergency to close the program - just eject the Flash-drive!
-
 In this window, you can:
 browse the content of you flash drive
 delete all content ("FORMAT the USB Drive" button)
 encrypt all content (and decrypt it) 
-
+![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/5.png)
 When you click the "Encrypt" button, you will activate the encryption and compression process, that will 
 be displayed in progress bar. 
-
+![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/6.png)
 And, will be finished by "Done" message box.
-
+![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/7.png)
 The same thins with decryption. The click in "Decrypt" button will activate decryption and decompression 
 process, that will also be displayed in progress bar. But, before decryption, the User will have to enter
  the decryption password, that in current situation is his ID's password. 
-
+![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/9.png)
 And, will also be finished by "Done" message box.
-
+![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/10.png)
 The click on "FORMAT the USB Drive" will activate the removal process of the entire content are on the 
 flash drive. 
 
 # Admin's capabilities:
-## Before you start, very important feature: if you must emergency to close the program - just eject the Flash-drive!
-
 In this window , you can:
 browse the content of you flash drive
 delete all content ("FORMAT the USB Drive" button)
 encrypt all content (and decrypt it)
 also, immediately shut down the program, if necessary
 in addition, here represent Admin's capabilities, such as:
+![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/12.png)
 - Users editing 
+![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/11.png)
 - USB-Drive editing
 
 All capabilities that is similar in User's window, such as encryption, decryption and format disk
@@ -65,7 +68,7 @@ So, we can the administrator rights. Admin can edit Users and flash-drives datab
 ### USB-Drive editing window
 
 # Users editing window:
-## Before you start, very important feature: if you must emergency to close the program - just eject the Flash-drive!
+![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/12.png)
 As you can see, there are tow capability: Authorize User/Admin in Database and Delete User/Admin 
 from it.
 First, means, you can create the ID for User and create the password (also there is a field for 
@@ -81,7 +84,7 @@ box and click on "Delete from Database" button. And User or Admin will be delete
 Next capability is USB-Drive editing...
 
 # USB-Drive editing:
-## Before you start, very important feature: if you must emergency to close the program - just eject the Flash-drive!
+![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/11.png)
 In this window you, as an Admin can authorize and delete a particular flash-drive from the Database.
  As a usual, all are very simple. For both things, you only select the falsh-drive  from the combo 
  box and click "Authorize" or "Delete" button. Your actions will be confirm by the "Done" message.
