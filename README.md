@@ -25,7 +25,7 @@
 # 2. Second window "Main menu":
 There are two types of capabilities for the "Main menu", that are depends, if you are: 
 ![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/3.png)
-# User 
+# - User 
 ![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/4.png)
 # Admin
 
@@ -56,10 +56,9 @@ delete all content ("FORMAT the USB Drive" button)
 encrypt all content (and decrypt it)
 also, immediately shut down the program, if necessary
 in addition, here represent Admin's capabilities, such as:
-![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/12.png)
-- Users editing 
-![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/11.png)
-- USB-Drive editing
+## - Users editing 
+## - USB-Drive editing
+
 
 All capabilities that is similar in User's window, such as encryption, decryption and format disk
  here works the same! 
