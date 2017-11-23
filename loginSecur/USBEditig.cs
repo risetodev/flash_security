@@ -99,7 +99,7 @@ namespace loginSecur
                                     Thread.Sleep(500);
                                     foreach (var i in USBDrivesList)
                                     {
-                                        comboBox1.Items.Add(i.name + " " + i.volumeLabel + " " + i.totalSize);
+                                        comboBox1.Items.Add(i.volumeLabel + " " + i.totalSize);
                                     }
                                     DeviceQuery.Abort();
                                     break;
@@ -111,7 +111,7 @@ namespace loginSecur
                                     Thread.Sleep(500);
                                     foreach (var i in USBDrivesList)
                                     {
-                                        comboBox1.Items.Add(i.name + " " + i.volumeLabel + " " + i.totalSize);
+                                        comboBox1.Items.Add(i.volumeLabel + " " + i.totalSize);
                                     }
                                     DeviceQuery.Abort();
                                     break;
