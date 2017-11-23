@@ -623,3 +623,4 @@ C:\Users\Administrator\Desktop\flash_security\loginSecur\obj\Debug\loginSecur.ex
 C:\Users\Administrator\Desktop\flash_security\loginSecur\obj\Debug\loginSecur.application
 C:\Users\Administrator\Desktop\flash_security\loginSecur\obj\Debug\loginSecur.exe
 C:\Users\Administrator\Desktop\flash_security\loginSecur\obj\Debug\loginSecur.pdb
+C:\Users\Rise\Desktop\flash_security\loginSecur\obj\Debug\loginSecur.csprojResolveAssemblyReference.cache
