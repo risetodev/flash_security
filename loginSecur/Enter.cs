@@ -17,7 +17,7 @@ namespace loginSecur
 {
     public partial class Enter : Form
     {
-        public string PATH = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\FlashSecurityData\\";
+        public string PATH = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Database\\";
 
         private const int WM_DEVICE_CHANGE = 0x219;
         private const int DEVICE_INSERT = 0x8000;

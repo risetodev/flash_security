@@ -17,7 +17,7 @@ namespace loginSecur
         private Main regNewUser;
         private Enter EnterForm;
         List<User> UsersList = new List<User>();
-        private string PATH = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\FlashSecurityData\\";
+        private string PATH = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Database\\";
 
         public NewUser()
         {

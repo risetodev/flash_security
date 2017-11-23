@@ -24,7 +24,7 @@ namespace loginSecur
         private Enter EnterForm;
         USBDataBase USBInfoDB = new USBDataBase("", "", "", 0);
         List<USBDataBase> USBDataBaseList = new List<USBDataBase>();
-        private string PATH = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\FlashSecurityData\\";
+        private string PATH = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\Database\\";
 
         public USBEditig()
         {
