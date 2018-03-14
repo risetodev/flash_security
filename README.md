@@ -11,7 +11,8 @@
  	police, army, especially  for very high-ranking military personnel that have to transferring very 
  	"TOP SECRET" information  and files.  And also can be using for some sort of diplomatic 
  	representatives that have special level of accessory. 
-	WARNING: this software works with flash drives that have the file system as FAT32, because the NTFS file system security policy 	does not allow us to demonstrate the idea of our project.
+# WARNING
+This software works with flash drives that have the file system as FAT32, because the NTFS file system security policy 	does not allow us to demonstrate the idea of our project.
 
 # 1. Detecting of flash drive and verification. Autentification of User:
 ![Screenshot](https://github.com/RiseToDev/flash_security/blob/master/help/2.png)
