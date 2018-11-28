@@ -5,9 +5,9 @@
  	The point is to improve hardware security by the software. By that, it means the program level 
  	encryption and also decryption files. In idea, only this program can give access to the Flash 
  	drive and operate with it (collaborate  with files and the most important: encrypt and decrypt them).
- 	Intending to develop specialized device for store and transferring  different rypes of data. The 
+ 	Intending to develop specialized device for store and transferring  different types of data. The 
  	hardware security that is creating and getting together ONLY on secret factories on Ukrain territory.
- 	The program has been created for different kinds of special foresees, such as national security, 
+ 	The program has been created for different kinds of special forces, such as national security, 
  	police, army, especially  for very high-ranking military personnel that have to transferring very 
  	"TOP SECRET" information  and files.  And also can be using for some sort of diplomatic 
  	representatives that have special level of accessory. 
